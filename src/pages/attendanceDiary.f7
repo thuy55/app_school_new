@@ -1,0 +1,162 @@
+<template>
+    <div class="page" data-name="catalog">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <a href="/">
+                    <i class="icon icon-back"></i>
+                </a>
+                <div class="title">Nhật ký điểm danh</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div style="display: flex; justify-content: center; gap: 75px; margin-top: 5px;">
+                <div style="font-size: 20px;color: blue; font-weight: bold;">Học sinh: Trần Hữu Thọ</div>
+                <div style="font-size: 20px; color: blue; font-weight: bold;">Lớp: 5A</div>
+            </div>
+            <div
+                style="text-align: center; padding:10px; text-align: center; display: flex; justify-content: center;font-size: 20px;">
+                <input type="date" value="2023-02-20" placeholder="Chọn ngày" />
+            </div>
+            <div class="card data-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="label-cell" style="font-size:14px; font-weight:500; color:black;">Ngày</th>
+                            <th class="numeric-cell" style="font-size:14px; font-weight:500; color:black;">Giờ vào</th>
+                            <th class="numeric-cell" style="font-size:14px;font-weight:500; color:black;">Giờ ra</th>
+                            <th class="numeric-cell"
+                                style="font-size:14px;font-weight:500; color:black; text-align:center;">Loại</th>
+                            <th class="numeric-cell" style="font-size:14px;font-weight:500; color:black;">Chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="label-cell">Thứ 2(20/2/2023)</td>
+                            <td class="numeric-cell" style="text-align:center">6:30</td>
+                            <td class="numeric-cell" style="text-align:center">17:30</td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <div class="chip color-green">
+                                    <div class="chip-label">P</div>
+                                </div>
+                            </td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <i class="icon material-icons if-md">visibility</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label-cell">Thứ 3(21/2/2023)</td>
+                            <td class="numeric-cell" style="text-align:center">6:30</td>
+                            <td class="numeric-cell" style="text-align:center">17:30</td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <div class="chip color-red">
+                                    <div class="chip-label">K</div>
+                                </div>
+                            </td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <i class="icon material-icons if-md">visibility</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label-cell">Thứ 4(22/2/2023)</td>
+                            <td class="numeric-cell" style="text-align:center">6:30</td>
+                            <td class="numeric-cell" style="text-align:center">17:30</td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <div class="chip color-yellow">
+                                    <div class="chip-label">L</div>
+                                </div>
+                            </td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <i class="icon material-icons if-md">visibility</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label-cell">Thứ 5(23/2/2023)</td>
+                            <td class="numeric-cell" style="text-align:center">6:30</td>
+                            <td class="numeric-cell" style="text-align:center">17:30</td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <div class="chip color-organe">
+                                    <div class="chip-label">C</div>
+                                </div>
+                            </td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <i class="icon material-icons if-md">visibility</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label-cell">Thứ 6(24/2/2023)</td>
+                            <td class="numeric-cell" style="text-align:center">6:30</td>
+                            <td class="numeric-cell" style="text-align:center">17:30</td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <div class="chip color-orange">
+                                    <div class="chip-label">B</div>
+                                </div>
+                            </td>
+                            <td class="numeric-cell" style="text-align:center">
+                                <i class="icon material-icons if-md">visibility</i>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <div class="data-table-footer">
+                    <div class="data-table-rows-select">
+                        Xem
+                        <div class="input input-dropdown">
+                            <select>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="all">All</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="data-table-pagination">
+                        <span class="data-table-pagination-label">1-5 of 10</span>
+                        <a href="#" class="link disabled">
+                            <i class="icon icon-prev color-gray"></i>
+                        </a>
+                        <a href="#" class="link">
+                            <i class="icon icon-next color-gray"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="font-weight: 500;; font-size:20px; margin-left: 15px;">Chú thích:</div>
+                <div class="type">
+                    <div style="margin:0 0 3px 13px; display:flex; align-items: center;">
+                        <div class="chip color-green">
+                            <div class="chip-label">P</div>
+                        </div>
+                        <span style="font-size: 20px; margin-left:10px">Nghỉ có phép</span>
+                    </div>
+                    <div style="margin:0 0 3px 13px; display:flex; align-items: center;">
+                        <div class="chip color-red">
+                            <div class="chip-label">K</div>
+                        </div>
+                        <span style="font-size: 20px; margin-left:10px">Nghỉ không phép</span>
+                    </div>
+                    <div style="margin:0 0 3px 13px; display:flex; align-items: center;">
+                        <div class="chip color-yellow">
+                            <div class="chip-label">L</div>
+                        </div>
+                        <span style="font-size: 20px; margin-left:10px">Nghỉ ngày lễ</span>
+                    </div>
+                    <div style="margin:0 0 3px 13px; display:flex; align-items: center;">
+                        <div class="chip color-oragne">
+                            <div class="chip-label">C</div>
+                        </div>
+                        <span style="font-size: 20px; margin-left:10px">Nghỉ cố định</span>
+                    </div>
+                    <div style="margin:0 0 3px 13px; display:flex; align-items: center;">
+                        <div class="chip color-orange">
+                            <div class="chip-label">B</div>
+                        </div>
+                        <span style="font-size: 20px; margin-left:10px">Bỏ tiết</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

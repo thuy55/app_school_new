@@ -1,0 +1,395 @@
+<template>
+  <div class="page" data-name="option">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="/" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Đóng góp ý kiến</div>
+      </div>
+    </div>
+    <div class="fab fab-right-bottom color-blued" style="background-color: #EDEDF5; border-style: none;">
+      <a href="#">
+        <i class="icon f7-icons if-not-md">plus</i>
+        <i class="icon f7-icons if-not-md">xmark</i>
+        <i class="icon material-icons md-only">add</i>
+        <i class="icon material-icons md-only">close</i>
+      </a>
+      <div class="fab-buttons fab-buttons-top">
+        <a class="fab-label-button button button-fill sheet-open " data-sheet=".my-sheet-top" href="#"
+          style="background-color: #04AA6D;"><span><i class="icon material-icons if-md">add</i></span><span
+            class="fab-label">Thêm</span></a>
+        <a class="fab-label-button  open-with-button" href="#" style="background-color: red;"><span><i
+              class="icon material-icons if-md">delete</i></span><span class="fab-label color-black">XÓA</span></a>
+      </div>
+    </div>
+    <div class="sheet-modal sheet-modal-top my-sheet-top " style="margin-top: 5%; border-radius: 10px;height: 72%;">
+      <div class="toolbar toolbar-top" style="border-radius: 10px; height: 10%;">
+        <div class="toolbar-inner">
+          <div class="left" style="margin-left: 5%; font-size: 20px;">Thêm góp ý</div>
+          <div class="right"><a class="link sheet-close" href="#"><i class="icon material-icons if-md">close</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="sheet-modal-inner" style="overflow-y: scroll;">
+        <div class="block">
+          <div class="list no-hairlines-md">
+            <ul>
+              <li class="item-content item-input item-input-outline">
+                <div class="item-inner">
+                  <!-- <div class="item-title item-floating-label">Phụ huynh của em</div> -->
+                  <label style="color: gray; margin-bottom: 5px;">Phụ huynh của em :</label>
+                  <div class="item-input-wrap">
+                    <input type="text" readonly placeholder="Nguyễn Văn A" />
+                    <!-- <span class="input-clear-button"></span> -->
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input item-input-outline">
+                <div class="item-inner">
+                  <label style="color: gray; margin-bottom: 5px;">Tiêu đề:</label>
+                  <div class="item-title item-floating-label">Tiêu đề</div>
+                  <div class="item-input-wrap">
+                    <input type="text" placeholder="Tiêu đề góp ý" />
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input item-input-outline">
+                <div class="item-inner">
+                  <label style="color: gray; margin-bottom: 5px;">Nội dung góp ý :</label>
+                  <div class="item-title item-floating-label">Nội dung</div>
+                  <div class="item-input-wrap">
+                    <textarea type="text" placeholder="Nội dung góp ý" style="height: 200px;"></textarea>
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="row" style="display: flex; justify-content: center; margin-top: 20px;">
+              <button class="col button button-fill  center elevation-3"
+                style="width: 50%; border-radius: 20px; background-color: rgb(7, 45, 149);">THÊM GÓP Ý
+              </button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+    <div class="page-content" style="background-color:#EDEDF5;">
+      <div class="card card-outline elevation-3" style="margin: 7px; border-radius: 10px; background-color:white">
+        <div class="block-title" style="margin-top: 20px; font-size: 15px;">Họ và tên: Nguyễn Văn A
+          <div style="display: flex; align-items: center; margin-top: 10px;">
+            <p>Tháng :</p>
+            <input type="month" placeholder="mm/yyyy"
+              style="background-color: rgb(226, 226, 226); padding: 10px; margin-left: 20px;" />
+          </div>
+        </div>
+      </div>
+      <!-- <div class="block-title" style="margin-top: 20px;">Giáo viên chủ nhiệm:</div> -->
+      <div class="card card-expandable elevation-3" style="height: 90px;">
+        <div class="card-content">
+          <div class="bg-color-blue" style="height: 90px">
+            <div class="card-header text-color-black " style="display: flex; align-items: center;">
+              <div class="item-media" style=" width: 20%; margin-right: 1px;">
+                <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="60"
+                  style="border-radius: 10px;" />
+              </div>
+              <div class="item-inner" style="display: flex; width: 80%;">
+                <div class="item-title-row">
+                  <div class="item-title" style="font-size: medium; text-align: start; margin-right: 15%;">Tiêu đề:
+                    Góp
+                    ý vấn đề bạo lực học đường
+                    <div class="item-subtitle" style="color: gray; margin-top: 5px;">12/02/2023</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="link card-close card-opened-fade-in color-black"
+              style="position: absolute; right: 15px; top: 15px">
+              <i class="icon f7-icons">xmark_circle_fill</i>
+            </a>
+          </div>
+          <div class="card-content-padding" style="text-align: justify;">
+            1. Thế nào là bạo lực học đường:
+
+            Bạo lực học đường là những hành vi thô bạo, thiếu đạo đức với bạn mình.
+            Cách cư xử thiếu văn minh, không có giáo dục của thế hệ học sinh.
+            Xúc phạm đến tinh thần và thể xác người khác, gây ảnh hưởng nghiêm trọng.
+            Hành vi này càng ngày càng phổ biến.
+            2. Hiện trạng của bạo lực học đường hiện nay:
+
+            Lăng mạ, xúc phạm, chửi bậy đối với người khác.
+            Làm tổn thương đến tinh thần bạn bè.
+            Học sinh có thái độ không đúng với thầy cô.
+            Thầy cô xúc phạm đến học sinh.
+            Lập các bang nhóm đánh nhau ở học sinh.
+            3. Nguyên nhân dẫn đến hiện tượng bạo lực học đường:
+
+            Do ảnh hưởng của môi trường bạo lực, thiếu văn hóa.
+            Chưa có sự quan tâm từ gia đình.
+            Không có sự giáo dục đúng đắn của nhà trường.
+            Xã hội dửng dưng trước những hành động bạo lực.
+            Sự phát triển chưa toàn diện của học sinh.
+            4. Hậu quả của bạo lực học đường:
+
+            a. Với người bị bạo lực:
+
+            Bị ảnh hưởng về tinh thần và thể chất.
+            Làm cho gia đình họ bị đau thương.
+            Làm cho xã hội bất ổn.
+            b. Với người gây ra bạo lực:
+
+            Phát triển không toàn diện.
+            Mọi người chê trách.
+            Mất hết tương lai, sự nghiệp.
+            5. Cách khắc phục nạn bạo lực học đường:
+
+            Nhà trường cần nâng cao nhận thức và dạy bảo học sinh hiệu quả nhất.
+            Cha mẹ nên chăm lo và quan tâm đến con cái.
+            Tự bản thân có trách nhiệm xa lánh tình trạng bạo lực học đường.
+            Bị ảnh hưởng về tinh thần và thể chất.
+            Làm cho gia đình họ bị đau thương.
+            Làm cho xã hội bất ổn.
+            b. Với người gây ra bạo lực:
+
+            Phát triển không toàn diện.
+            Mọi người chê trách.
+            Mất hết tương lai, sự nghiệp.
+            5. Cách khắc phục nạn bạo lực học đường:
+
+            Nhà trường cần nâng cao nhận thức và dạy bảo học sinh hiệu quả nhất.
+            Cha mẹ nên chăm lo và quan tâm đến con cái.
+            Tự bản thân có trách nhiệm xa lánh tình trạng bạo lực học đường.
+          </div>
+        </div>
+      </div>
+      <div class="card card-expandable elevation-3" style="height: 90px;">
+        <div class="card-content">
+          <div class="bg-color-blue" style="height: 90px">
+            <div class="card-header text-color-black " style="display: flex; align-items: center;">
+              <div class="item-media" style=" width: 20%; margin-right: 1px;">
+                <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="60"
+                  style="border-radius: 10px;" />
+              </div>
+              <div class="item-inner" style="display: flex; width: 80%;">
+                <div class="item-title-row">
+                  <div class="item-title" style="font-size: medium; text-align: start; margin-right: 15%;">Tiêu đề:
+                    Góp
+                    ý vấn đề bạo lực học đường
+                    <div class="item-subtitle" style="color: gray; margin-top: 5px;">12/02/2023</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="link card-close card-opened-fade-in color-black"
+              style="position: absolute; right: 15px; top: 15px">
+              <i class="icon f7-icons">xmark_circle_fill</i>
+            </a>
+          </div>
+          <div class="card-content-padding" style="text-align: justify;">
+            1. Thế nào là bạo lực học đường:
+
+            Bạo lực học đường là những hành vi thô bạo, thiếu đạo đức với bạn mình.
+            Cách cư xử thiếu văn minh, không có giáo dục của thế hệ học sinh.
+            Xúc phạm đến tinh thần và thể xác người khác, gây ảnh hưởng nghiêm trọng.
+            Hành vi này càng ngày càng phổ biến.
+            2. Hiện trạng của bạo lực học đường hiện nay:
+
+            Lăng mạ, xúc phạm, chửi bậy đối với người khác.
+            Làm tổn thương đến tinh thần bạn bè.
+            Học sinh có thái độ không đúng với thầy cô.
+            Thầy cô xúc phạm đến học sinh.
+            Lập các bang nhóm đánh nhau ở học sinh.
+            3. Nguyên nhân dẫn đến hiện tượng bạo lực học đường:
+
+            Do ảnh hưởng của môi trường bạo lực, thiếu văn hóa.
+            Chưa có sự quan tâm từ gia đình.
+            Không có sự giáo dục đúng đắn của nhà trường.
+            Xã hội dửng dưng trước những hành động bạo lực.
+            Sự phát triển chưa toàn diện của học sinh.
+            4. Hậu quả của bạo lực học đường:
+
+            a. Với người bị bạo lực:
+
+            Bị ảnh hưởng về tinh thần và thể chất.
+            Làm cho gia đình họ bị đau thương.
+            Làm cho xã hội bất ổn.
+            b. Với người gây ra bạo lực:
+
+            Phát triển không toàn diện.
+            Mọi người chê trách.
+            Mất hết tương lai, sự nghiệp.
+            5. Cách khắc phục nạn bạo lực học đường:
+
+            Nhà trường cần nâng cao nhận thức và dạy bảo học sinh hiệu quả nhất.
+            Cha mẹ nên chăm lo và quan tâm đến con cái.
+            Tự bản thân có trách nhiệm xa lánh tình trạng bạo lực học đường.
+            Bị ảnh hưởng về tinh thần và thể chất.
+            Làm cho gia đình họ bị đau thương.
+            Làm cho xã hội bất ổn.
+            b. Với người gây ra bạo lực:
+
+            Phát triển không toàn diện.
+            Mọi người chê trách.
+            Mất hết tương lai, sự nghiệp.
+            5. Cách khắc phục nạn bạo lực học đường:
+
+            Nhà trường cần nâng cao nhận thức và dạy bảo học sinh hiệu quả nhất.
+            Cha mẹ nên chăm lo và quan tâm đến con cái.
+            Tự bản thân có trách nhiệm xa lánh tình trạng bạo lực học đường.
+          </div>
+        </div>
+      </div>
+      <div class="card card-expandable elevation-3" style="height: 90px;">
+        <div class="card-content">
+          <div class="bg-color-blue" style="height: 90px">
+            <div class="card-header text-color-black " style="display: flex; align-items: center;">
+              <div class="item-media" style=" width: 20%; margin-right: 1px;">
+                <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="60"
+                  style="border-radius: 10px;" />
+              </div>
+              <div class="item-inner" style="display: flex; width: 80%;">
+                <div class="item-title-row">
+                  <div class="item-title" style="font-size: medium; text-align: start; margin-right: 15%;">Tiêu đề:
+                    Góp
+                    ý vấn đề bạo lực học đường
+                    <div class="item-subtitle" style="color: gray; margin-top: 5px;">12/02/2023</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="link card-close card-opened-fade-in color-black"
+              style="position: absolute; right: 15px; top: 15px">
+              <i class="icon f7-icons">xmark_circle_fill</i>
+            </a>
+          </div>
+          <div class="card-content-padding" style="text-align: justify;">
+            1. Thế nào là bạo lực học đường:
+
+            Bạo lực học đường là những hành vi thô bạo, thiếu đạo đức với bạn mình.
+            Cách cư xử thiếu văn minh, không có giáo dục của thế hệ học sinh.
+            Xúc phạm đến tinh thần và thể xác người khác, gây ảnh hưởng nghiêm trọng.
+            Hành vi này càng ngày càng phổ biến.
+            2. Hiện trạng của bạo lực học đường hiện nay:
+
+            Lăng mạ, xúc phạm, chửi bậy đối với người khác.
+            Làm tổn thương đến tinh thần bạn bè.
+            Học sinh có thái độ không đúng với thầy cô.
+            Thầy cô xúc phạm đến học sinh.
+            Lập các bang nhóm đánh nhau ở học sinh.
+            3. Nguyên nhân dẫn đến hiện tượng bạo lực học đường:
+
+            Do ảnh hưởng của môi trường bạo lực, thiếu văn hóa.
+            Chưa có sự quan tâm từ gia đình.
+            Không có sự giáo dục đúng đắn của nhà trường.
+            Xã hội dửng dưng trước những hành động bạo lực.
+            Sự phát triển chưa toàn diện của học sinh.
+            4. Hậu quả của bạo lực học đường:
+
+            a. Với người bị bạo lực:
+
+            Bị ảnh hưởng về tinh thần và thể chất.
+            Làm cho gia đình họ bị đau thương.
+            Làm cho xã hội bất ổn.
+            b. Với người gây ra bạo lực:
+
+            Phát triển không toàn diện.
+            Mọi người chê trách.
+            Mất hết tương lai, sự nghiệp.
+            5. Cách khắc phục nạn bạo lực học đường:
+
+            Nhà trường cần nâng cao nhận thức và dạy bảo học sinh hiệu quả nhất.
+            Cha mẹ nên chăm lo và quan tâm đến con cái.
+            Tự bản thân có trách nhiệm xa lánh tình trạng bạo lực học đường.
+            Bị ảnh hưởng về tinh thần và thể chất.
+            Làm cho gia đình họ bị đau thương.
+            Làm cho xã hội bất ổn.
+            b. Với người gây ra bạo lực:
+
+            Phát triển không toàn diện.
+            Mọi người chê trách.
+            Mất hết tương lai, sự nghiệp.
+            5. Cách khắc phục nạn bạo lực học đường:
+
+            Nhà trường cần nâng cao nhận thức và dạy bảo học sinh hiệu quả nhất.
+            Cha mẹ nên chăm lo và quan tâm đến con cái.
+            Tự bản thân có trách nhiệm xa lánh tình trạng bạo lực học đường.
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</template>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="./lib/framework7/js/framework7.bundle.min.js"></script>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script>
+  export default (props, { $on, $, $f7 }) => {
+    $on('pageInit', () => {
+      // DOM events for my-sheet sheet
+      $('.my-sheet').on('sheet:open', function (e) {
+        console.log('my-sheet open');
+      });
+      $('.my-sheet').on('sheet:opened', function (e) {
+        console.log('my-sheet opened');
+      });
+
+      
+      // Open dynamic sheet
+      $('.dynamic-sheet').on('click', function () {
+        // Close inline sheet before
+        app.sheet.close('.my-sheet');
+
+        // Open dynamic sheet
+        dynamicSheet.open();
+      });
+
+    })
+
+    return $render;
+  }
+</script>
+<style>
+  .card-expandable {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  /* .invoices .item-invoices {
+      background: transparent;
+      
+    }
+  
+    .invoices .item-invoices .item-content {
+      display: flex;
+      justify-content: space-between;
+      box-sizing: border-box;
+      align-items: center;
+      min-height: var(--f7-list-item-min-height);
+      padding-left: calc(var(--f7-list-item-padding-horizontal) + var(--f7-safe-area-left));
+      background: #fff;
+      box-shadow: 0px 7px 19px 0px rgba(0, 115, 255, 0.11);
+      margin: 15px 20px 10px 20px;
+      border-radius: 20px;
+    }
+  
+    .invoices .item-invoices:before,
+    .invoices .item-invoices:after {
+      height: 0;
+    }
+    div[class*="col"] {
+      border-style: none;
+      text-align: start;
+      font-size: 0.8em;
+      margin-bottom: 10px;
+    } */
+</style>

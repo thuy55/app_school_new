@@ -1,0 +1,275 @@
+<template>
+    <div class="page" data-name="notifications">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="/" class="link back">
+                      <i class="icon icon-back"></i>
+                      <span class="if-not-md">Back</span>
+                    </a>
+                  </div>
+                <div class="title">Thông báo</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="listNotification">
+                <ul style="list-style: none; padding:0 10px;">
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/notificationDetail/">
+                            <div
+                                style="display: flex; border:1px solid #dee2e6;
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);border-radius:10px; padding:10px 4px; align-items: center; box-sizing: border-box;margin-bottom: 10px; ">
+                                <img src="./images/school_img.jpg" width="45" height="45"
+                                    style="border-radius: 50%; margin-left: 3px;" />
+                                <div style="margin-left: 10px;">
+                                    <div style="color: #313131; font-size:16px; font-weight: 500;">
+                                        Admin
+                                    </div>
+                                    <div style="color: #777;">Thứ 2 họp phụ huynh em Sữa về vụ đẹp trai nhất trong
+                                        lớp 3A...</div>
+                                </div>
+                                <div style="margin-left: 4px; display: grid; row-gap: 10px;">
+                                    <div style="color: #777;">11:30</div>
+                                    <div style="color: #777;">+2</div>
+                                </div>
+                                <div>
+                                    <i style="color: #777; font-size: 30px;"
+                                        class="icon material-icons if-md">chevron_right</i>
+                                    <!-- <i class="material-symbols-outlined">
+                                            chevron_right
+                                        </i> -->
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>

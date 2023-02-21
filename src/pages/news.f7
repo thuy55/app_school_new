@@ -1,0 +1,502 @@
+<template>
+    <div class="page">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+          <div class="left">
+            <a href="/" class="link back">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>
+            </div>
+          <div class="title">Hoạt Động - Tin Tức</div>
+        </div>
+      
+      </div>
+      <div class="page-content">
+        <h3 class="block-title text-title">Tin tức hôm nay:</h3>
+        <div class="card demo-card-header-pic">
+          <div style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"
+            class="card-header align-items-flex-end">Lorem Ipsum</div>
+          <div class="card-content pd-card card-content-padding">
+            <p class="datenews ">Hoạt động kéo co tại trường học ngày (20/2/2022)</p>
+            <p>Thông tin sở giáo dục và đào tạo hoạt động trường dự trên, tin sở giáo dục và đào tạo hoạt động trường dự trên ...</p>
+            <p class="date date-news">Ngày đăng tải: 21/2/2015</p>
+          </div>
+          <div class="card-footer"><a href="#" class="link"></a><a href="#" class="link"> Đọc thêm... </a></div>
+        </div> 
+        <div class="card demo-card-header-pic">
+          <div style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"
+            class="card-header align-items-flex-end">Lorem Ipsum</div>
+          <div class="card-content pd-card card-content-padding">
+            <p class="datenews ">Hoạt động kéo co tại trường học ngày (20/2/2022)</p>
+            <p>Thông tin sở giáo dục và đào tạo hoạt động trường dự trên, tin sở giáo dục và đào tạo hoạt động trường dự trên ...</p>
+            <p class="date date-news">Ngày đăng tải: 21/2/2015</p>
+          </div>
+          <div class="card-footer"><a href="#" class="link"></a><a href="#" class="link"> Đọc thêm... </a></div>
+        </div> 
+        <div class="card">
+          <div class="card-header">Thông báo mới:</div>
+          <div class="card-content">
+            <div class="list media-list no-ios-edges">
+              <ul>
+                <li class="item-content ">
+                  <a href="" class="ab item-link item-content"  style="padding-left: 0px;">
+                  <div class="item-media">
+                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44" />
+                  </div>
+                  <div class="item-inner" style="padding-right: 2px;">
+                    <div class="item-title-row">
+                      <div class="item-title item-notifile" style="color: black;" >Hợp phụ huynh thứ 5</div>
+                      <div class="hour"> 11h:30 </div>
+                    </div>
+                    <div class="item-subtitle border-notifile">
+                      <div class="round3">
+                        <i class="icon icon-color icon-size material-icons if-md">
+                          cloud_download
+                          </i>
+                        <div class="notifile">Thông báo nghỉ tết.png</div>
+                      </div>
+                      <div class="sizenotifile">
+                        2+
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                </li>
+                <li class="item-content">
+                  <a href="" class="ab item-link item-content" style="padding-left: 0px;">
+                  <div class="item-media">
+                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44" />
+                  </div>
+                  <div class="item-inner" style="padding-right: 2px;">
+                    <div class="item-title-row">
+                      <div class="item-title item-notifile" style="color: black;">Hợp phụ huynh thứ 5</div>
+                      <div class="hour"> 11h:30 </div>
+                    </div>
+                    <div class="item-subtitle border-notifile">
+                      <div class="round3">
+                        <i class="icon icon-color icon-size material-icons if-md">
+                          cloud_download
+                          </i>
+                        <div class="notifile">Thông báo nghỉ tết.png</div>
+                      </div>
+                      <div class="sizenotifile">
+                        2+
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                </li>
+                <li class="item-content">
+                  <a href="#" class="  item-link item-content ab" style="padding-left: 0px;">
+                  <div class="item-media">
+                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44" />
+                  </div>
+                  <div class="item-inner" style="padding-right: 2px;">
+                    <div class="item-title-row">
+                      <div class="item-title item-notifile" style="color: black;">Hợp phụ huynh thứ 5</div>
+                      <div class="hour"> 11h:30 </div>
+                    </div>
+                    <div class="item-subtitle border-notifile">
+                      <div class="round3">
+                        <i class="icon icon-color icon-size material-icons if-md">
+                          cloud_download
+                          </i>
+                        <div class="notifile">Thông báo nghỉ tết.png</div>
+                      </div>
+                      <div class="sizenotifile">
+                        2+
+                      </div>
+                    </div>
+                  </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-footer"><span>January 20, 2015</span><a class="list-button"> <span class="addNotifile">Xem thêm</span></a> </div>
+        </div>
+        <div class="block-title">Hoạt động trong tuần</div>
+        <div class="card card-expandable">
+          <div class="card-content">
+            <div class="bg-color-white" style="height: 300px">
+              <div class="card-header height-size text-color-black display-block" style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"><br />
+               
+              </div>
+              <small style="opacity: 0.7; height: 20%; text-align: center;"  >  
+              
+                <p class="datenews2 ">Hoạt động kéo co tại trường học ngày </p>    
+                <p class="date date-news2" style="margin: 0px;">Ngày: 21/2/2015</p>
+              
+            </small>
+              <a href="#" class="link card-close card-opened-fade-in color-black"
+                style="position: absolute; right: 15px; top: 15px">
+                <i class="icon f7-icons">xmark_circle_fill</i>
+              </a>
+            </div>
+            <div class="card-content-padding">
+              <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web
+                apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps
+                tool to show working app prototype as soon as possible in case you need to.</p>
+              <p>The main approach of the Framework7 is to give you an opportunity to create iOS and Android
+                (Material) apps with HTML, CSS and JavaScript easily and clear. Framework7 is full of freedom. It
+                doesn't limit your imagination or offer ways of any solutions somehow. Framework7 gives you freedom!
+              </p>
+              <p>Framework7 is not compatible with all platforms. It is focused only on iOS and Android (Material) to
+                bring the best experience and simplicity.</p>
+              <p>Framework7 is definitely for you if you decide to build iOS and Android hybrid app (Cordova or
+                Capacitor) or web app that looks like and feels as great native iOS or Android (Material) apps.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-expandable">
+          <div class="card-content">
+            <div class="bg-color-white" style="height: 300px">
+              <div class="card-header height-size text-color-black display-block" style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"><br />
+               
+              </div>
+              <small style="opacity: 0.7; height: 20%; text-align: center;"  >  
+              
+                <p class="datenews2 ">Hoạt động kéo co tại trường học ngày </p>    
+                <p class="date date-news2" style="margin: 0px;">Ngày: 21/2/2015</p>
+              
+            </small>
+              <a href="#" class="link card-close card-opened-fade-in color-black"
+                style="position: absolute; right: 15px; top: 15px">
+                <i class="icon f7-icons">xmark_circle_fill</i>
+              </a>
+            </div>
+            <div class="card-content-padding">
+              <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web
+                apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps
+                tool to show working app prototype as soon as possible in case you need to.</p>
+              <p>The main approach of the Framework7 is to give you an opportunity to create iOS and Android
+                (Material) apps with HTML, CSS and JavaScript easily and clear. Framework7 is full of freedom. It
+                doesn't limit your imagination or offer ways of any solutions somehow. Framework7 gives you freedom!
+              </p>
+              <p>Framework7 is not compatible with all platforms. It is focused only on iOS and Android (Material) to
+                bring the best experience and simplicity.</p>
+              <p>Framework7 is definitely for you if you decide to build iOS and Android hybrid app (Cordova or
+                Capacitor) or web app that looks like and feels as great native iOS or Android (Material) apps.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card card-expandable">
+          <div class="card-content">
+            <div class="bg-color-white" style="height: 300px">
+              <div class="card-header height-size text-color-black display-block" style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"><br />
+               
+              </div>
+              <small style="opacity: 0.7; height: 20%; text-align: center;"  >  
+              
+                <p class="datenews2 ">Hoạt động kéo co tại trường học ngày </p>    
+                <p class="date date-news2" style="margin: 0px;">Ngày: 21/2/2015</p>
+              
+            </small>
+              <a href="#" class="link card-close card-opened-fade-in color-black"
+                style="position: absolute; right: 15px; top: 15px">
+                <i class="icon f7-icons">xmark_circle_fill</i>
+              </a>
+            </div>
+            <div class="card-content-padding">
+              <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web
+                apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps
+                tool to show working app prototype as soon as possible in case you need to.</p>
+              <p>The main approach of the Framework7 is to give you an opportunity to create iOS and Android
+                (Material) apps with HTML, CSS and JavaScript easily and clear. Framework7 is full of freedom. It
+                doesn't limit your imagination or offer ways of any solutions somehow. Framework7 gives you freedom!
+              </p>
+              <p>Framework7 is not compatible with all platforms. It is focused only on iOS and Android (Material) to
+                bring the best experience and simplicity.</p>
+              <p>Framework7 is definitely for you if you decide to build iOS and Android hybrid app (Cordova or
+                Capacitor) or web app that looks like and feels as great native iOS or Android (Material) apps.</p>
+            </div>
+          </div>
+        </div>
+        <h3 class="block-title text-title" style="margin-left: 13px;">Hoạt động thể thao:</h3>
+        <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="10" data-slides-per-view="auto"
+        data-centered-slides="true" class="swiper swiper-init demo-swiper demo-swiper-auto" style="height: 300px;">
+        <div class="swiper-pagination"></div>
+        <div data-pagination='{"el": ".swiper-pagination"}' style="height: 100%;" data-space-between="100"
+        class="swiper swiper-init demo-swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper" style="height: 100%;">
+          <!-- <div class="swiper-slide" style="width: 100%;">
+            <div class="card-header height-size text-color-black display-block"  style="width: 90%;background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"><br />
+               
+            </div>
+          </div> -->
+          <!-- <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div> -->
+        </div>
+      </div>
+      </div>
+      <div class="list media-list">
+        <h3 class="block-title text-title" style="margin-left: 13px;">Giới thiệu:</h3>
+        <div class="card demo-card-header-pic" style="margin-bottom: 0px;">
+          <div style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"
+            class="card-header align-items-flex-end">Lorem Ipsum</div>
+          <div class="card-content pd-card card-content-padding" style="margin-bottom: 8px;">
+            <p class="datenews ">Hoạt động kéo co tại trường học ngày (20/2/2022)</p>
+            <p>Thông tin sở giáo dục và đào tạo hoạt động trường dự trên, tin sở giáo dục và đào tạo hoạt động trường dự trên ...</p>
+            <p class="date date-news">Ngày đăng tải: 21/2/2015</p>
+          </div>
+         
+           <ul>
+          <li>
+            <a href="#" class="item-link item-content">
+              <div class="item-media"><img src="https://edu.viettel.vn/upload/49555/20210318/z2385371417007_5ba5a27a73eec3515aa29e66f702aae2_76d309a648.jpg"
+                  width="145px" height="95px" /></div>
+              <div class="item-inner">
+                <div class="item-title-row">
+                  <div class="size-titile">Kế hoạch giảng dạy và đào tạo năm 2022</div>
+                </div>        
+                <div class="item-text" style="height: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis
+                  tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum
+                  sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec
+                  dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</div>
+              </div>
+            </a></li>
+            <li>
+              <a href="#" class="item-link item-content">
+                <div class="item-media"><img src="https://edu.viettel.vn/upload/49555/20210318/z2385371417007_5ba5a27a73eec3515aa29e66f702aae2_76d309a648.jpg"
+                    width="145px" height="95px" /></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="size-titile">Kế hoạch giảng dạy và đào tạo năm 2022</div>
+                  </div>        
+                  <div class="item-text" style="height: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis
+                    tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum
+                    sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec
+                    dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</div>
+                </div>
+              </a></li>
+              <li>
+                <a href="#" class="item-link item-content">
+                  <div class="item-media"><img src="https://edu.viettel.vn/upload/49555/20210318/z2385371417007_5ba5a27a73eec3515aa29e66f702aae2_76d309a648.jpg"
+                      width="145px" height="95px" /></div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="size-titile">Kế hoạch giảng dạy và đào tạo năm 2022</div>
+                    </div>        
+                    <div class="item-text" style="height: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis
+                      tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum
+                      sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec
+                      dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</div>
+                  </div>
+                </a>
+              </li>
+        </ul>
+        <div class="list">
+          <ul>
+            <li><a class="list-button" style="background-color: #F8F9F9;">Xem thêm</a></li>
+          </ul>
+        </div>
+        </div> 
+      </div>
+    </div>
+    </div>  
+  </template>
+  <script>
+    export default (props, { $f7, $on }) => {
+      $on('pageInit', () => {
+        // create searchbar
+        var searchbar = $f7.searchbar.create({
+          el: '.searchbar',
+          searchContainer: '.list',
+          searchIn: '.item-title',
+          on: {
+            search(sb, query, previousQuery) {
+              console.log(query, previousQuery);
+            }
+          }
+        });
+      })
+  
+      return $render;
+    }
+  </script>
+  <style>
+    .demo-card-header-pic .card-header {
+      height: 40vw;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+  
+    .demo-card-header-pic .card-content-padding .date {
+      color: #ed2525;
+    }
+  
+    .demo-facebook-card .card-header {
+      display: block;
+      padding: 10px;
+    }
+  
+    .demo-facebook-card .demo-facebook-avatar {
+      float: left;
+    }
+  
+    .demo-facebook-card .demo-facebook-name {
+      margin-left: 44px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    .demo-facebook-card .demo-facebook-date {
+      margin-left: 44px;
+      font-size: 13px;
+      color: #8e8e93;
+    }
+  
+    .demo-facebook-card .card-footer {
+      background: #fafafa;
+    }
+  
+    .demo-facebook-card .card-footer a {
+      color: #81848b;
+      font-weight: 500;
+    }
+  
+    .demo-facebook-card .card-content img {
+      display: block;
+    }
+  
+    .demo-facebook-card .card-content-padding {
+      padding: 15px 10px;
+    }
+  
+    .demo-facebook-card .card-content-padding .likes {
+      color: #8e8e93;
+    }
+    .datenews{
+        color: rgb(0, 0, 0);
+        size: 23px;
+    }
+    .pd-card{
+      padding-bottom: 0px;
+    }
+    .text-title{
+      font-size: 25px;
+      margin: 11px;
+      height: 33px;
+      color: a9a9a9d;
+    }
+    .datenews{
+      font-size: 19px;
+      font-weight: bold;
+      margin-bottom: -4px;
+      color: #444343;
+    }
+    .datenews2{
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: -4px;
+      color: #ed2525;
+    }
+    .date-news{
+      border-style: solid;
+      border-width: 0px 0px 0px 5px;
+      padding-left: 5px;
+    }
+    .date-news2{
+      border-style: solid;
+      border-width: 0px 0px 0px 0px;
+      padding-left: 5px;
+    }
+    .icon-size{
+      font-size: 29px;
+    }
+    .notifile{
+      width: 50%;
+    margin-top: 5px;
+    padding-left: 10px;
+    color: #007AFF;
+    }
+    .hour{
+      width: 20%;
+      color: #bfbfbf;
+    }
+    .border-notifile {
+      display: flex;
+    }
+    .round3 {
+      border:2px solid #b9b9b9;
+    border-radius: 12px;
+    padding-left: 9px;
+    display: flex;
+    padding-bottom: 2px;
+    width: 73%;
+}
+.sizenotifile{
+  width: 10%;
+  text-align: right;
+    padding-right: 20px;
+    padding-top: 9px;
+    color: #bfbfbf;
+}
+.icon-color{
+  color: #c73535;
+}
+.ab{
+  width: 100%;
+    display: flex;
+    padding-left: 0px; padding-right: 12px;
+}
+.item-notifile{
+  width: 80%;
+    color: black;
+    padding-left: 7px;
+}
+.addNotifile{
+  color: #007AFF;
+    font-size: 15px;
+}.height-size{
+  height: 80%;
+}
+.demo-swiper .swiper-slide {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+  }
+
+  .demo-swiper .swiper-slide {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+  }
+
+  .demo-swiper {
+    margin: 0px 0 35px;
+    font-size: 18px;
+    height: 120px;
+  }
+
+  .demo-swiper.demo-swiper-auto .swiper-slide {
+    width: 85%;
+  }
+
+  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 70%;
+  }
+
+  .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 30%;
+  }
+  .size-titile{
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  </style>

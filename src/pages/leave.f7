@@ -1,0 +1,370 @@
+<template>
+  <div class="page">
+    <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+          <div class="left">
+            <a href="/" class="link back">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>
+            </div>
+          <div class="title">Xin nghỉ phép</div>
+        </div>
+      </div>
+      <div class="fab fab-right-bottom color-blued" style="border-style: none;">
+        <a href="#">
+          <i class="icon f7-icons if-not-md">plus</i>
+          <i class="icon f7-icons if-not-md">xmark</i>
+          <i class="icon material-icons md-only">add</i>
+          <i class="icon material-icons md-only">close</i>
+        </a>
+        <div class="fab-buttons fab-buttons-top">
+          <a class="fab-label-button button button-fill popup-open " data-popup=".popup-services" href="#" style="background-color: #04AA6D;"><span><i class="icon material-icons if-md">add</i></span><span class="fab-label">Thêm</span></a>
+          <a class="fab-label-button  open-with-button" href="#" style="background-color: red;"><span ><i class="icon material-icons if-md" >delete</i></span><span class="fab-label color-black">XÓA</span></a>
+        </div>
+      </div>
+      <div class="popup colorpor popup-services">
+        <div class="block" style="margin-top: 15px;">
+          <div class="card-footer card" style="margin: 0px;"><a href="#" class="link asize">Xin nghỉ phép</a><a class="link popup-close" href="#"><i class="icon material-icons if-md">close</i>          </a></div>
+          <div class="card-content card card-content-padding" style="padding: 0px;margin-right: 0px; margin: 0px; width: 100%; font-size: 19px;">
+            <div style="display: flex; align-items: center; width: 100%;">
+              <p style="width: 30%; margin-left: 10px; margin: 16px;">Từ ngày:</p>
+              <input type="datetime-local"  style="background-color: #D3D3D3; padding: 8px;margin: 0; margin-right: 5px; width: 70%;" placeholder="Please choose..." />
+            </div>
+            <div style="display: flex; align-items: center; width: 100%;">
+              <p style="width: 30%; margin-left: 10px; margin: 16px;">Đến ngày:</p>
+              <input type="datetime-local"  style="background-color: #D3D3D3; padding: 8px;margin: 0; margin-right: 5px; width: 70%;" placeholder="Please choose..." />
+            </div>
+          </div>
+          <div class="item-input-wrap card" style="margin: 0px;">
+            <textarea class="sizebio" placeholder="Nội dung"></textarea>
+          </div>
+          <div> 
+            <button class="col ok button button-large button-raised">Ok</button>
+            </div>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="item-inner" style="display: flex;">
+            <div class="card-content card card-content-padding" style="padding: 0px; width: 93%; font-size: 19px;">
+              <div style="display: flex; align-items: center; width: 100%;">
+                <p style="width: 30%;margin-left: 10px; margin: 16px;">Trạng thái:</p>
+                <select name="name" id="name" style="background-color: #D3D3D3; padding: 8px;margin: 0; margin-right: 10px; width: 68%;">
+                  <option value="" selected></option>
+                  <option value="1">Còn hạn</option>
+                  <option value="2">Hệt hạn</option>
+                </select>
+              </div>
+              <div style="display: flex; align-items: center; width: 100%;">
+                <p style="width: 30%;margin-left: 10px; margin: 16px;">Ngày:</p>
+                <input type="datetime-local"  style="background-color: #D3D3D3; padding: 8px;margin: 0; margin-right: 5px; width: 55%;" placeholder="Please choose..." />
+                <button class="col button button-fill " style="width: 15%;  margin-right: 10px; height: 44px;"><i class="icon material-icons if-md">search</i></button>
+              </div>
+            </div>
+          </div>
+          <div class="data-table data-table-init">
+      <table id="customers">
+        <thead>
+        <tr>
+          <th class="checkbox-cell">
+            <label class="checkbox" style="background-color: #ebebeb;">
+              <input type="checkbox"/>
+              <i class="icon-checkbox"></i>
+            </label>
+          </th>
+          <th>Yêu cầu</th>
+          <th>Số ngày</th>
+          <th>Từ ngày</th>
+          <th>Đến ngày</th>
+          <th>Trạng thái</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr> 
+          <td class="checkbox-cell">
+            <label class="checkbox">
+              <input type="checkbox"/>
+              <i class="icon-checkbox"></i>
+            </label>
+          </td>
+          <td>22/2/2022</td>
+          <td>10</td>
+          <td>22/2/2022</td>
+          <td>22/2/2022</td>
+          <td><label class="toggle toggle-init toggle-init">
+            <input type="checkbox" checked disabled />
+            <span class="toggle-icon"></span>
+          </label></td>
+          <td><a class="link popover-open" href="#" data-popover=".popover-about"><i class="icon material-icons if-md">visibility</i></a></td>
+        </tr>
+        <tr>
+           <td class="checkbox-cell">
+            <label class="checkbox">
+              <input type="checkbox" />
+              <i class="icon-checkbox"></i>
+            </label>
+          </td>
+          <td>22/2/2022</td>
+          <td>10</td>
+          <td>22/2/2022</td>
+          <td>22/2/2022</td>
+          <td><label class="toggle toggle-init disabled">
+            <input type="checkbox" />
+            <span class="toggle-icon"></span>
+          </label></td>
+          <td><i class="icon material-icons if-md">visibility</i></td>
+        </tr>
+          <tr>
+           <td class="checkbox-cell">
+            <label class="checkbox">
+              <input type="checkbox" />
+              <i class="icon-checkbox"></i>
+            </label>
+          </td>
+          <td>22/2/2022</td>
+          <td>10</td>
+          <td>22/2/2022</td>
+          <td>22/2/2022</td>
+          <td><label class="toggle toggle-init disabled">
+            <input type="checkbox" />
+            <span class="toggle-icon"></span>
+          </label></td>
+          <td><i class="icon material-icons if-md">visibility</i></td>
+        </tr>
+        <tr>
+          <td class="checkbox-cell">
+           <label class="checkbox">
+             <input type="checkbox" />
+             <i class="icon-checkbox"></i>
+           </label>
+         </td>
+         <td>22/2/2022</td>
+         <td>10</td>
+         <td>22/2/2022</td>
+         <td>22/2/2022</td>
+         <td><label class="toggle toggle-init disabled">
+           <input type="checkbox" />
+           <span class="toggle-icon"></span>
+         </label></td>
+         <td><i class="icon material-icons if-md">visibility</i></td>
+       </tr>
+       <tr>
+        <td class="checkbox-cell">
+         <label class="checkbox">
+           <input type="checkbox" />
+           <i class="icon-checkbox"></i>
+         </label>
+       </td>
+       <td>22/2/2022</td>
+       <td>10</td>
+       <td>22/2/2022</td>
+       <td>22/2/2022</td>
+       <td><label class="toggle toggle-init disabled">
+         <input type="checkbox" />
+         <span class="toggle-icon"></span>
+       </label></td>
+       <td><i class="icon material-icons if-md">visibility</i></td>
+     </tr>
+     <tr>
+      <td class="checkbox-cell">
+       <label class="checkbox">
+         <input type="checkbox" />
+         <i class="icon-checkbox"></i>
+       </label>
+     </td>
+     <td>22/2/2022</td>
+     <td>10</td>
+     <td>22/2/2022</td>
+     <td>22/2/2022</td>
+     <td><label class="toggle toggle-init disabled">
+       <input type="checkbox" />
+       <span class="toggle-icon"></span>
+     </label></td>
+     <td><i class="icon material-icons if-md">visibility</i></td>
+   </tr>
+   <tr>
+    <td class="checkbox-cell">
+     <label class="checkbox">
+       <input type="checkbox" />
+       <i class="icon-checkbox"></i>
+     </label>
+   </td>
+   <td>22/2/2022</td>
+   <td>10</td>
+   <td>22/2/2022</td>
+   <td>22/2/2022</td>
+   <td><label class="toggle toggle-init disabled">
+     <input type="checkbox" />
+     <span class="toggle-icon"></span>
+   </label></td>
+   <td><i class="icon material-icons if-md">visibility</i></td>
+ </tr>
+        
+        </tbody>
+      </table>
+      </div>
+      <div class="popover popover-about">
+        <div class="popover-inner">
+          <div class="block" style="margin-top: 8px;">
+            <p style="    text-align: center;
+            font-size: 20px;
+            margin: 0px; color: red;">Nội dung</p>
+            <p style="margin-top: 3px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac diam ac quam euismod porta vel a
+              nunc.
+              Quisque sodales scelerisque est, at porta justo cursus ac.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+ 
+</template>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3982fd;
+  color: white;
+}
+.demo-icon {
+    background: #EE350F;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .notification-subtitle{
+    font-size: 21px;
+    text-align: center;
+  }
+  .sizeicon{
+    font-size: 19px;
+  }
+  .notification-title{
+    font-size: 21px;
+  }
+  .mg{
+    margin: 0px;
+  }
+  .sizebutton{
+    height: 33px;
+    width: 116px;
+  }
+.asize{
+  font-size: 23px;
+}
+.sizebio{
+  height: 500px;
+    width: 100%;
+    font-size: 23px;
+    margin-top: 5px;
+}
+.colorpor{
+  background: #f9f9f9;
+}
+.ok{
+  margin-top: 35px;
+    background-color: #007AFF;
+    color: white;
+    font-size: 24px;
+}
+
+</style>
+<script>
+  export default (props, { $, $f7, $on, $update }) => {
+    $on('pageInit', () => {
+      // Create notification with close button
+      var notificationWithButton = $f7.notification.create({
+        icon: '<i class="icon sizeicon material-icons if-md">notification_important</i>',
+        title: 'Thông báo',
+        subtitle: 'Bạn có muốn xóa ?',
+        text: ' <div class="block mg block-strong"><p class="row"> <button class="col colordelete sizebutton button button-large button-raised">Hủy</button><button class="col button button-large sizebutton button-raised button-fill">Ok</button></p></div>',
+        closeButton: true,
+      });
+      // Open Notifications
+     
+      $('.open-with-button').on('click', function () {
+        notificationWithButton.open();
+      });
+    
+    })
+//////////////
+
+ 
+    $on('pageInit', () => {
+      // DOM events for About popup
+      $('.popup-about').on('popup:open', function (e) {
+        console.log('About popup open');
+      });
+      $('.popup-about').on('popup:opened', function (e) {
+        console.log('About popup opened');
+      });
+
+      // Create dynamic Popup
+      var dynamicPopup = $f7.popup.create({
+        content: `
+          <div class="popup">
+            <div class="block">
+              <p>Popup created dynamically.</p>
+              <p><a href="#" class="link popup-close">Close me</a></p>
+            </div>
+          </div>
+        `,
+        // Events
+        on: {
+          open: function (popup) {
+            console.log('Popup open');
+          },
+          opened: function (popup) {
+            console.log('Popup opened');
+          },
+        }
+      });
+      // Events also can be assigned on instance later
+      dynamicPopup.on('close', function (popup) {
+        console.log('Popup close');
+      });
+      dynamicPopup.on('closed', function (popup) {
+        console.log('Popup closed');
+      });
+
+      // Open dynamic popup
+      $('.dynamic-popup').on('click', function () {
+        dynamicPopup.open();
+      });
+
+      // Create Popup with swipe to close
+      var swipeToClosePopup = $f7.popup.create({
+        el: '.popup-swipe-to-close',
+        swipeToClose: true,
+      });
+
+      // Create Popup with swipe to close handler
+      var swipeToClosePopup = $f7.popup.create({
+        el: '.popup-swipe-to-close-handler',
+        swipeToClose: true,
+        swipeHandler: '.my-swipe-to-close-handler',
+      });
+    })
+
+    return $render;
+  }
+</script>

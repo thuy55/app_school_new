@@ -1,0 +1,361 @@
+<template>
+    <div class="page" >
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="/" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Thông tin tài khoản</div>
+            </div>
+        </div>
+        <div class="page-content" style="background-color: #F5F6FB;">
+            <!-- <div class="penal">
+                <div style=" position: relative;">
+                    <div
+                        style="background-color: #007AFF; height: 60px; left: 0px; position: absolute; top: 0px; width:100%;">
+                    </div>
+                </div>
+            </div> -->
+            <article>
+                <div class="content before-bg-style">
+                    <div class="profile">
+                        <!-- <div class="avatar">
+                            <img class="avatar-img"
+                                src="https://toquoc.mediacdn.vn/2019/9/5/001a3513-15676514560451166952689.jpg" alt="" />
+                        </div> -->
+                        <ul class="profile-main">
+                            <div class="row">
+                                <div class="col-33">Họ và tên:</div>
+                                <div class="col-66" style="justify-content: start;">Nguyễn Thị Thu Hà</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-33">Số điện thoại :</div>
+                                <div class="col-66" style="justify-content: start;">0123456789</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-33">Ngày sinh :</div>
+                                <div class="col-66" style="justify-content: start;">02/04/1994</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-33">Chức vụ :</div>
+                                <div class="col-66" style="justify-content: start;">Mẹ</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-33">Địa chỉ :</div>
+                                <div class="col-66" style="justify-content: start;">54 Bàu Cát 6, phường 14, Tân Bình,
+                                    tpHCM
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <div class="card card-expandable elevation-3" style="height: 55px; width: 93%; ">   
+                <div class="card-content " style="width: 100%;">
+                    <div style="height: 55px; display: flex; justify-content: center; background-color: rgb(248 208 109)">
+                        <div class="card-header text-color-white"
+                            style=" width: 75%; display: flex; justify-content: center; background-color: rgb(248 208 109);">
+                            <div class="item-inner" style="display: flex; width: 75%; justify-content: center;">
+                                <div class="item-title-row">
+                                    <div class="item-title" style="font-size: medium;">CẬP NHẬT TÀI KHOẢN
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="link card-close card-opened-fade-in color-black"
+                            style="position: absolute; right: 15px; top: 15px">
+                            <i class="icon f7-icons">xmark_circle_fill</i>
+                        </a>
+                    </div>
+                    <div class="card-content-padding ">
+                        <div class="list no-hairlines-md" style="padding: 10px;">
+                            <ul class="profile-main" style="padding: 10px;">
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Họ và tên :</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" placeholder="Họ và tên" />
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Số điện thoại :</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" readonly placeholder="Số điện thoại" />
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Ngày sinh :</div>
+                                        <div class="item-input-wrap">
+                                            <input type="date" placeholder="Ngày sinh" />
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Tỉnh/ Thành phố:</div>
+                                        <div class="item-input-wrap input-dropdown-wrap">
+                                        <select name="" id=""
+                                            style="margin: 0; margin-left: 10px;">
+                                            <option value="1">HCM</option>
+                                            <option value="2">HN</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Quận/ Huyện:</div>
+                                        <div class="item-input-wrap input-dropdown-wrap">
+                                        <select name="" id=""
+                                            style="margin: 0; margin-left: 10px;">
+                                            <option value="1">Tân Bình</option>
+                                            <option value="2">Bình Tân</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input ">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Xã/ Phường/ Thị trấn:</div>
+                                        <div class="item-input-wrap input-dropdown-wrap">
+                                        <select name="" id=""
+                                            style="margin: 0; margin-left: 10px;">
+                                            <option value="1">14</option>
+                                            <option value="2">13</option>
+                                        </select>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Địa chỉ:</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" placeholder="Địa chỉ" />
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row" style="display: flex; justify-content: center;">
+                        <button class="col button button-fill button-large center elevation-3"
+                            style="width: 50%; font-size: larger; border-radius: 20px; background-color: rgb(248 208 109);">CẬP NHẬT
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-expandable elevation-3" style="height: 55px; width: 93%;  margin-top: 20px;">
+                <div class="card-content" style="width: 100%;">
+                    <div style="height: 55px; display: flex; justify-content: center; background-color: #522cff;">
+                        <div class="card-header text-color-white"
+                            style=" width: 75%; display: flex; justify-content: center; background-color: #522cff;">
+                            <div class="item-inner"
+                                style="display: flex; width: 75%; justify-content: center;">
+                                <div class="item-title-row">
+                                    <div class="item-title" style="font-size: medium;">ĐỔI MẬT KHẨU
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="link card-close card-opened-fade-in color-black"
+                            style="position: absolute; right: 15px; top: 15px">
+                            <i class="icon f7-icons">xmark_circle_fill</i>
+                        </a>
+                    </div>
+                    <div class="card-content-padding">
+                        <div class="list no-hairlines-md" style="padding: 10px;">
+                            <ul class="profile-main" style="padding: 10px;">
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Mật khẩu cũ :</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" placeholder="Mật khẩu cũ" />
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Mật khẩu mới</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" placeholder="Mật khẩu mới" />
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input ">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Nhập lại mật khẩu mới</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" placeholder="Nhập lại mật khẩu mới" />
+                                            <span class="input-clear-button"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row" style="display: flex; justify-content: center; margin-top: 10px;">
+                        <button class="col button button-fill button-large center"
+                            style="width: 50%; font-size: larger; border-radius: 20px; background-color: #522cff;">CẬP NHẬT
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="display: flex; justify-content: center; margin-top: 20px;">
+                <button class="col button button-fill button-large center bg-color-black elevation-3"
+                    style="width: 93%; font-size: larger; border-radius: 10px; height: 55px;">ĐĂNG XUẤT
+                </button>
+            </div>
+
+        </div>
+    </div>
+</template>
+<!-- <script>
+    export default (props, { $, $on, $f7 }) => {
+        $on('pageInit', () => {
+            $('.convert-form-to-data').on('click', function () {
+                var formData = $f7.form.convertToData('#my-form');
+                alert(JSON.stringify(formData));
+            });
+
+            $('.fill-form-from-data').on('click', function () {
+                var formData = {
+                    'name': 'John',
+                    'email': 'john@doe.com',
+                    'gender': 'female',
+                    'toggle': ['yes'],
+                }
+                $f7.form.fillFromData('#my-form', formData);
+            });
+        });
+
+        return $render;
+    }
+</script> -->
+<style>
+    .list .item-input-wrap {
+        background-color: rgb(243, 241, 241);
+        padding: 5px;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+
+
+    .list .item-title {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    .card-expandable {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    /* .penal {
+        width: 100%;
+        height: 60px;
+        background-color: #007AFF;
+    } */
+
+    .bg {
+        background-color: #F7FAFC;
+    }
+
+    .fw {
+        font-weight: bold;
+    }
+
+    .bg-tt {
+        color: #007AFF;
+    }
+
+    article {
+        padding-bottom: 1rem;
+    }
+
+    .content {
+        position: relative;
+        border-radius: 0.5rem;
+    }
+
+    .before-bg-style::before {
+        content: " ";
+        position: absolute;
+
+        width: 100%;
+        height: 4rem;
+        background-color: #007AFF;
+
+        z-index: -1;
+    }
+    
+
+    p {
+        margin: 0px;
+    }
+
+    .profile {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+
+        padding: 0.5rem;
+
+        border-radius: 0.5rem;
+        position: relative;
+        background-color: #ffffff;
+    }
+
+    .avatar {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, -30%);
+        width: 9rem;
+        height: 9rem;
+        z-index: 9;
+    }
+
+    .avatar-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    /*  */
+    .profile-main {
+        margin-bottom: 0px;
+        /* margin-top: 3rem; */
+        padding: 0.5rem;
+        padding-top: 1rem;
+        background-color: #ffffff;
+        border: 2px solid rgba(228, 228, 228, 0.815);
+        border-radius: 0.5rem;
+    }
+
+    div[class*="col"] {
+        border-style: none;
+        text-align: start;
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    .row .col-66 {
+        color: #064384;
+        font-weight: bolder;
+    }
+</style>

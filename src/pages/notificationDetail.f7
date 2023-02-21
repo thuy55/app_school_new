@@ -1,0 +1,34 @@
+<template>
+    <div class="page" data-name="catalog">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <a href="/notifications/">
+                    <i class="icon icon-back"></i>
+                </a>
+                <div class="title">Chi tiết thông báo</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="card card-outline">
+                <div class="card-header" style="font-weight: 500; font-size: 18px;">Thông báo họp phụ huynh em Sữa</div>
+                <div class="card-content card-content-padding">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dignissimos amet officia labore exercitationem sapiente modi possimus animi fuga, laboriosam ab,
+                    necessitatibus excepturi suscipit, inventore laborum ipsum at sit temporibus voluptatum? Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Error rerum quo molestiae provident optio dolores nemo
+                    cupiditate hic recusandae sint iusto voluptate modi, nisi possimus accusamus corrupti repellendus
+                    alias distinctio?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quasi deserunt vero corporis dicta, hic
+                    facilis commodi quos, voluptate totam doloremque deleniti nisi ea ipsum natus ad nobis a eos!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias inventore magnam voluptate odit
+                    atque culpa autem nihil consectetur, sapiente obcaecati eaque laborum iste! Quasi modi iusto tempora
+                    magni earum. Eos.
+                </div>
+                <div class="card-footer">
+                    <div>Admin</div>
+                    <div>11:30 15 thg 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

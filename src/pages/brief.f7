@@ -1,0 +1,367 @@
+<template>
+    <div class="page">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+          <div class="left">
+            <a href="/" class="link back">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>
+            </div>
+          <div class="title">Hồ sơ học sinh</div>
+        </div>
+      </div>
+      <div class="page-content" style="background-color: #F5F6FB;">
+        <div class="penal">
+            <div style=" position: relative;">
+                <div style="background-color: #007AFF; height: 60px; left: 0px; position: absolute; top: 0px; width:100%;"></div>
+                </div>
+        </div>
+        <article>
+          <div class="content before-bg-style" >
+            <div class="profile">
+              <div class="avatar">
+                <img class="avatar-img" src="https://toquoc.mediacdn.vn/2019/9/5/001a3513-15676514560451166952689.jpg" alt="" />
+              </div>
+              <ul class="profile-main">
+                <li>Mã học sinh: <strong>12345678</strong></li>
+                <li>Họ và tên:<strong>Nguyễn Thị Thắm</strong></li>
+                <li>Ngày sinh:<strong>17/09/2015</strong></li>
+                <li>Dân tộc:<strong>Kinh.</strong></li>
+                <li>Tôn giáo:<strong>Phật giáo</strong></li>
+                <li>Nơi sinh:<strong>An Giang</strong></li>
+                <li style="display: grid; grid-template-columns: 1fr 1fr">
+                  <p>Lớp:<strong>3A</strong></p>
+                  <p>Phòng:<strong>16B.</strong></p>
+                </li>
+                <li>Niêm khóa:<strong>2018-2019.</strong></li>
+              </ul>
+            </div>
+          </div>
+        </article>  
+        <div class="card cartmg">
+            <div class="card-header fw">THÔNG TIN HỒ SƠ HỌC SINH</div>
+            <div class="list bg inline-labels no-hairlines-md">
+                <ul>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                      <div class="item-title bg-tt fw item-label" style="font-weight: bold; color: #007AFF;">Mã hồ sơ</div>
+                      <div class="item-input-wrap">
+                        <input type="text" placeholder="" value="18077551"  readonly="true"/>
+                       
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-title bg-tt fw item-label" style="font-weight: bold; color: #007AFF;">Bậc đào tạo</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="" value="ĐẠI HỌC"   readonly="true"/>
+                         
+                        </div>
+                      </div>
+                  </li>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-title bg-tt fw item-label" style="font-weight: bold; color: #007AFF;">Năm học</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="" value="2018-2019"   readonly="true"/>
+                        </div>
+                      </div>
+                  </li>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-title bg-tt fw item-label" style="font-weight: bold; color: #007AFF;">Khóa học</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="" value="2018-2022"   readonly="true"/>
+                        </div>
+                      </div>
+                  </li>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-title bg-tt fw item-label" style="font-weight: bold; color: #007AFF;">Loại đào tạo</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="" value="Chính quy"   readonly="true"/>
+                        </div>
+                      </div>
+                  </li>
+                  <li class="item-content item-input">
+                    <div class="item-inner">
+                        <div class="item-title bg-tt fw item-label" style="font-weight: bold; color: #007AFF;"> Đơn vị đào tạo</div>
+                        <div class="item-input-wrap">
+                          <input type="text" placeholder="" value="Trường tiểu học Lương Văn An"   readonly="true"/>
+                        </div>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+            <div class="card-footer"></div>
+          </div>
+          <div style="height: 32%;background-color: #ffffff;margin: 9px; border: 2px solid rgba(228, 228, 228, 0.815);border-radius: 10px;">
+            <div class="card-header fw">QUAN HỆ GIA ĐÌNH</div>
+            <div class="card card-expandable elevation-2" style="height: 80px; margin-top: 10px; margin: 4px">
+              <div class="card-content" style="background-color: rgb(207 217 219);">
+                <div class="bg-color-y" style="height: 80px;">
+                  <div class="card-header text-color-black " style="display: flex; align-items: center;">
+                    <div class="item-media" style=" width: 20%; margin-right: 1px; margin-top: 12px;">
+                      
+                    </div>
+                    <div class="item-inner" style="display: flex; width: 70%;">
+                      <div class="item-title-row">
+                        <div class="item-title" style="font-size: large; text-align: start; ">Nguyễn Thị Thắm
+                          <div class="item-subtitle" style="color: gray; margin-top: 5px;">Quan hẹ: cha</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="link card-close card-opened-fade-in color-black"
+                    style="position: absolute; right: 15px; top: 15px">
+                    <i class="icon f7-icons">xmark_circle_fill</i>
+                  </a>
+                </div>
+                <div class="card-content-padding ph" style="padding: 0px;">
+                  <div class="penal" style="background-color: #FFE577;">
+                    <div style=" position: relative;">
+                        <div style="background-color: #ffe7b3 !important; height: 60px; left: 0px; position: absolute; top: 0px; width:100%;"></div>
+                        </div>
+                </div>
+                  <article>
+                    <div class="content before-bg-style-3" >
+                      <div class="profile boder-1">
+                        <div class="avatar">
+                          <img class="avatar-img" src="https://toquoc.mediacdn.vn/2019/9/5/001a3513-15676514560451166952689.jpg" alt="" />
+                        </div>
+                        <ul class="profile-main">
+                          <li>Họ và tên:<strong>Nguyễn Vă An</strong></li>
+                          <li>Ngày sinh:<strong>17/09/2000</strong></li>
+                          <li>Dân tộc:<strong>Kinh.</strong></li>
+                          <li>Tôn giáo:<strong>Phật giáo</strong></li>
+                          <li>Nơi sinh:<strong>An Giang</strong></li>
+                          <li>Nghề nghiệp:<strong>Làm nông</strong></li>
+                          <li>Số điện thoại:<strong>0372440346</strong></li>
+                          <li>Gmail:<strong>abc@gmail.com</strong></li>
+                          <li>Địa chỉ tạm trú:<strong>Hòa Thạnh- Thạnh Thạnh- An giang</strong></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="card card-expandable elevation-2" style="height: 80px; margin-top: 10px; margin: 4px">
+              <div class="card-content" style="background-color: #9cb4b7;">
+                <div class="bg-color-d" style="height: 80px;">
+                  <div class="card-header text-color-black " style="display: flex; align-items: center;">
+                    <div class="item-media" style=" width: 20%; margin-right: 1px; margin-top: 12px;">
+                      
+                    </div>
+                    <div class="item-inner" style="display: flex; width: 70%;">
+                      <div class="item-title-row">
+                        <div class="item-title" style="font-size: large; text-align: start; ">Nguyễn Thị Thắm
+                          <div class="item-subtitle" style="color: gray; margin-top: 5px;">Quan hẹ: cha</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="link card-close card-opened-fade-in color-black"
+                    style="position: absolute; right: 15px; top: 15px">
+                    <i class="icon f7-icons">xmark_circle_fill</i>
+                  </a>
+                </div>
+                <div class="card-content-padding ph" style="padding: 0px;">
+                  <div class="penal" style="background-color: #FFE577;">
+                    <div style=" position: relative;">
+                        <div style="background-color: #FFE577; height: 60px; left: 0px; position: absolute; top: 0px; width:100%;"></div>
+                        </div>
+                </div>
+                  <article>
+                    <div class="content before-bg-style-2" >
+                      <div class="profile boder-1">
+                        <div class="avatar">
+                          <img class="avatar-img" src="https://toquoc.mediacdn.vn/2019/9/5/001a3513-15676514560451166952689.jpg" alt="" />
+                        </div>
+                        <ul class="profile-main">
+                          <li>Họ và tên:<strong>Nguyễn Vă An</strong></li>
+                          <li>Ngày sinh:<strong>17/09/2000</strong></li>
+                          <li>Dân tộc:<strong>Kinh.</strong></li>
+                          <li>Tôn giáo:<strong>Phật giáo</strong></li>
+                          <li>Nơi sinh:<strong>An Giang</strong></li>
+                          <li>Nghề nghiệp:<strong>Làm nông</strong></li>
+                          <li>Số điện thoại:<strong>0372440346</strong></li>
+                          <li>Gmail:<strong>abc@gmail.com</strong></li>
+                          <li>Địa chỉ tạm trú:<strong>Hòa Thạnh- Thạnh Thạnh- An giang</strong></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </template>
+  <script>
+    export default (props, { $, $on, $f7 }) => {
+      $on('pageInit', () => {
+        $('.convert-form-to-data').on('click', function () {
+          var formData = $f7.form.convertToData('#my-form');
+          alert(JSON.stringify(formData));
+        });
+  
+        $('.fill-form-from-data').on('click', function () {
+          var formData = {
+            'name': 'John',
+            'email': 'john@doe.com',
+            'gender': 'female',
+            'toggle': ['yes'],
+          }
+          $f7.form.fillFromData('#my-form', formData);
+        });
+      });
+  
+      return $render;
+    }
+  </script>
+  <style>
+    .cartmg{
+        margin: 8px;
+    }
+    .penal{
+        width: 100%;
+        height: 60px;
+        background-color: #007AFF;
+    }
+    .bg{
+        background-color: #F7FAFC;
+    }
+    .fw{
+        font-weight: bold;
+    }
+    .bg-tt{
+        color: #007AFF;
+    }
+    article {
+  padding-bottom: 4rem;
+}
+.content {
+  position: relative;
+
+  border-radius: 0.5rem;
+}
+.before-bg-style::before {
+  content: " ";
+  position: absolute;
+
+  width: 100%;
+  height: 4rem;
+  background-color: #007AFF;
+
+  z-index: -1;
+}
+.before-bg-style-2::before {
+  content: " ";
+  position: absolute;
+
+  width: 100%;
+  height: 3.5rem;
+  background-color: #FFE577;
+  border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+  z-index: -1;
+}
+.before-bg-style-3::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 3.5rem;
+  background-color: #FFE7B3;
+  border-bottom-left-radius: 26px;
+    border-bottom-right-radius: 26px;
+  z-index: -1;
+}
+/*  */
+p{
+  margin: 0px;
+}
+.profile {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  position: relative;
+  background-color: #ffffff;
+}
+.avatar {
+  position: absolute;
+  left: 50%;
+  top: -1%;
+  transform: translate(-50%, -30%);
+  width: 9rem;
+  height: 9rem;
+  z-index: 9;
+}
+.avatar-img {
+  width: 97%;
+  height: 97%;
+  border-radius: 50%;
+}
+
+/*  */
+.profile-main {
+  margin-bottom: 0px;
+  margin-top: 3rem;
+    padding: 0.5rem;
+    padding-top: 3rem;
+    background-color: #ffffff;
+    border: 2px solid rgba(228, 228, 228, 0.815);
+    border-radius: 0.5rem;
+}
+.profile-main li {
+  padding-bottom: 21px;
+    list-style: none;
+}
+
+.education {
+  margin: 1rem;
+
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+
+  border-radius: 0.5rem;
+  position: relative;
+  background-color: #ffffff;
+  display: grid;
+  gap: 1.5rem;
+}
+.education input {
+  margin-top: 0.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1rem;
+
+  width: 100%;
+}
+strong{
+  margin-left: 8px;
+}
+article{
+  padding-bottom: 0px;
+}
+.ph{
+  padding: 0px;
+    padding-top: 54px;
+}
+.bg-color-d{
+  background-color: #FFE577 !important
+}
+.bg-color-y{
+  background-color: #ffe7b3 !important;
+}
+.border-1{
+  border: 2px solid rgba(228, 228, 228, 0.815);
+}
+  </style>

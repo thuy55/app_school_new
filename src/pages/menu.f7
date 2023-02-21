@@ -1,0 +1,205 @@
+<template>
+  <div class="page" data-name="catalog">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="/" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Thực đơn</div>
+      </div>
+    </div>
+    <div class="page-content">
+
+      <div class="toolbar tabbar tabbar-scrollable toolbar-bottom"
+        style="background-image: linear-gradient(#e6fcf5,#c3fae8);">
+        <div class="toolbar-inner">
+          <a href="/menu/" class="tab-link tab-link-active"
+            style="padding:0 10px; font-size: 15px; color: black;">Thứ 2</a>
+          <a href="/menu/" class="tab-link" style="padding:0 10px; font-size: 15px; color: black; ">Thứ 3</a>
+          <a href="/menu/" class="tab-link" style="padding:0 10px; font-size: 15px; color: black; ">Thứ 4</a>
+          <a href="/menu/" class="tab-link" style="padding:0 10px; font-size: 15px; color: black; ">Thứ 5</a>
+          <a href="/menu/" class="tab-link" style="padding:0 10px; font-size: 15px; color: black; ">Thứ 6</a>
+          <a href="/menu/" class="tab-link" style="padding:0 10px; font-size: 15px; color: black; ">Thứ 7</a>
+
+        </div>
+      </div>
+      <div class="meals">
+        <div style="font-weight: 500;; font-size:20px;margin: 10px 0 0 13px;">Bữa sáng</div>
+        <div class="row">
+          <div class="col">
+            <div class="card-content" style="margin-left: 13px;">
+              <div style="overflow-x: scroll; ">
+                <ul style="display:flex; list-style:none; padding: 0; ">
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="meals">
+        <div style="font-weight: 500; font-size:20px;margin: 10px 0 0 13px;">Bữa trưa</div>
+        <div class="row">
+          <div class="col">
+            <div class="card-content" style="margin-left: 13px;">
+              <div style="overflow-x: scroll; ">
+                <ul style="display:flex; list-style:none; padding: 0; ">
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="meals">
+        <div style="font-weight: 500;; font-size:20px;margin: 10px 0 0 13px;">Bữa chiều</div>
+        <div class="row">
+          <div class="col">
+            <div class="card-content" style="margin-left: 13px;">
+              <div style="overflow-x: scroll; ">
+                <ul style="display:flex; list-style:none; padding: 0; ">
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                  <li style="width: 190px;">
+                    <div style=" border:1px solid #dee2e6;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                         border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="175" height="140" />
+                      <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                      <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mealsDetail">
+        <div style="font-weight: 500;; font-size:20px;margin: 10px 0 0 13px;">Chi tiết món ăn</div>
+        <div class="card card-expandable">
+          <div class="card-content">
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU" width="100%" height="250px" />
+              <div class="card-header text-color-black display-block">
+                Salad ngũ vị đầy đủ các chất
+              </div>
+              <a href="#" class="link card-close card-opened-fade-in color-white"
+                style="position: absolute; right: 15px; top: 15px">
+                <i class="icon f7-icons">xmark_circle_fill</i>
+              </a>
+            </div>
+            <div class="card-content-padding" style="padding:0 16px;">
+              <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web
+                apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps
+                tool to show working app prototype as soon as possible in case you need to.</p>
+              <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web
+                apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps
+                tool to show working app prototype as soon as possible in case you need to.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</template>

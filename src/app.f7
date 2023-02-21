@@ -1,24 +1,155 @@
-
 <template>
   <div id="app">
 
     <!-- Left panel with cover effect-->
-    <div class="panel panel-left panel-cover dark panel-init">
+    <div class="panel panel-left panel-cover white panel-init">
       <div class="view">
         <div class="page">
           <div class="navbar">
-            <div class="navbar-bg"></div>
+            <div class="navbar-bg" style="background-color: rgb(75, 160, 221);"></div>
             <div class="navbar-inner">
-              <div class="title">Left Panel</div>
+              <div class="title">MENU</div>
             </div>
           </div>
           <div class="page-content">
-            <div class="block">Left panel content goes here</div>
+            <div class="block">
+              <div class="list media-list ms-menu">
+                <ul>
+                  <li>
+                    <a href="/account/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">badge</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Thông tin tài khoản</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/brief/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">assignment_ind</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Hồ sơ học sinh</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/list-teacher/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">co_present</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Danh sách giáo viên</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/attendanceDiary/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">history</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Nhật lý điểm danh</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/schedule/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">calendar_month</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Thời khóa biểu</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/scores/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">edit_square</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Kết quả học tập</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/menu/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">menu_book</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Thực đơn</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/leave/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">event_busy</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Xin nghỉ phép</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/health-record/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">video_camera_front</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Hồ sơ sức khỏe</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/news/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">school</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Hoạt động trường</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/notifications/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">circle_notifications</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Thông báo trường</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/notificationTeacher/" class="panel-close">
+                      <div class="item-link item-content">
+                        <div class="item-media"><i class="icon material-icons if-md">notifications_active</i></div>
+                        <div class="item-inner">
+                          <div class="item-title">Thông báo giáo viên</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  
+                </ul>
+                <div class="row" style="display: flex; justify-content: center; margin-top: 20px;">
+                  <button class="col button button-fill  center bg-color-black elevation-3"
+                      style="width: 90%;  border-radius: 10px;">ĐĂNG XUẤT
+                  </button>
+              </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Right panel with reveal effect-->
+    <!-- Right panel with reveal effect--> 
     <div class="panel panel-right panel-reveal dark">
       <div class="view">
         <div class="page">
@@ -43,18 +174,19 @@
           <a href="#view-home" class="tab-link tab-link-active">
             <i class="icon f7-icons if-not-md">house_fill</i>
             <i class="icon material-icons if-md">home</i>
-            <span class="tabbar-label">Home</span>
+            <span class="tabbar-label">Trang chủ</span>
           </a>
-          <a href="#view-catalog" class="tab-link">
-            <i class="icon f7-icons if-not-md">square_list_fill</i>
-            <i class="icon material-icons if-md">view_list</i>
-            <span class="tabbar-label">Catalog</span>
+          <a href="#view-schedule" class="tab-link">
+            <!-- <i class="icon f7-icons if-not-md">square_list_fill</i> -->
+            <i class="icon material-icons if-md">calendar_month</i>
+            <span class="tabbar-label">Thời khóa biểu</span>
           </a>
-          <a href="#view-settings" class="tab-link">
-            <i class="icon f7-icons if-not-md">gear</i>
-            <i class="icon material-icons if-md">settings</i>
-            <span class="tabbar-label">Settings</span>
+          <a href="#view-attendanceDiary" class="tab-link">
+            <!-- <i class="icon f7-icons if-not-md">gear</i> -->
+            <i class="icon material-icons if-md">history</i>
+            <span class="tabbar-label">Điểm danh</span>
           </a>
+
         </div>
       </div>
 
@@ -64,12 +196,13 @@
       </div>
 
       <!-- Catalog View -->
-      <div id="view-catalog" class="view view-init tab" data-name="catalog" data-url="/catalog/">
+      <div id="view-schedule" class="view view-init tab" data-name="schedule" data-url="/schedule/">
         <!-- Catalog page will be loaded here dynamically from /catalog/ route -->
       </div>
 
       <!-- Settings View -->
-      <div id="view-settings" class="view view-init tab" data-name="settings" data-url="/settings/">
+      <div id="view-attendanceDiary" class="view view-init tab" data-name="attendanceDiary"
+        data-url="/attendanceDiary/">
         <!-- Settings page will be loaded here dynamically from /settings/ route -->
       </div>
     </div>
@@ -109,7 +242,8 @@
                   <div class="item-inner">
                     <div class="item-title item-label">Username</div>
                     <div class="item-input-wrap">
-                      <input type="text" name="username" placeholder="Your username" value="${username}" @input="${updateUsername}"/>
+                      <input type="text" name="username" placeholder="Your username" value="${username}"
+                        @input="${updateUsername}" />
 
                     </div>
                   </div>
@@ -118,7 +252,8 @@
                   <div class="item-inner">
                     <div class="item-title item-label">Password</div>
                     <div class="item-input-wrap">
-                      <input type="password" name="password" placeholder="Your password" value="${password}" @input="${updatePassword}"/>
+                      <input type="password" name="password" placeholder="Your password" value="${password}"
+                        @input="${updatePassword}" />
 
                     </div>
                   </div>
@@ -132,7 +267,8 @@
 
                 </li>
               </ul>
-              <div class="block-footer">Some text about login information.<br/>Click "Sign In" to close Login Screen</div>
+              <div class="block-footer">Some text about login information.<br />Click "Sign In" to close Login Screen
+              </div>
             </div>
           </div>
         </div>

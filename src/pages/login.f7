@@ -1,0 +1,54 @@
+<template>
+  <div class="page no-navbar no-toolbar no-swipeback">
+    <div style="text-align: end; margin-right: 10px; margin-top: 5px;"><h4>www.eclo.vn</h4></div>
+    <div class="center" style="margin-top: 5%;">
+      <img src="./images/eclo.svg" style="width: 20%;" class="center"/>
+      <h4 style="text-align: center; margin-top: 10px;">ỨNG DỤNG QUẢN LÝ TRƯỜNG HỌC</h4>
+    </div>
+    <img src="./images/school_img.jpg" style="width: 95%;" class="center"/>
+    <div class="page-content login-screen-content"> 
+      <div class="title">
+      <p style="text-align: center;">Vui lòng nhập số điện thoại & mật khẩu để đăng nhập</p></div>
+      <form>
+        <div class="list no-hairlines-md" style="width: 95%;">
+          <ul>
+            <li class="item-content item-input item-input-outline">
+              <div class="item-inner">
+                <div class="item-title item-floating-label">Số điện thoại</div>
+                <div class="item-input-wrap">
+                  <input type="text" placeholder="Your phone" />
+                  <span class="input-clear-button"></span>
+                </div>
+              </div>
+            </li>
+            <li class="item-content item-input item-input-outline">
+              <div class="item-inner">
+                <div class="item-title item-floating-label">Mật khẩu</div>
+                <div class="item-input-wrap">
+                  <input type="password" placeholder="Your password" />
+                  <span class="input-clear-button"></span>
+                </div>
+              </div>
+            </li>
+            </ul>
+        </div>
+          <div class="row">
+            <button class="col button button-fill button-large center color-black" style="width: 50%;">ĐĂNG NHẬP</button>
+          </div>
+        <!-- <div class="list">
+          <ul>
+            <li><a href="#" class="list-button">Sign In</a></li>
+          </ul>
+        </div> -->
+      </form>
+    </div>
+  </div>
+</template>
+<style>
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 65%; */
+}
+</style>

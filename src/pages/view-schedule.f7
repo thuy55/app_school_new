@@ -1,0 +1,140 @@
+<template>
+    <div class="page" data-name="view-schedule">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="/schedule/" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Chi tiết thời khóa biểu</div>
+            </div>
+        </div>
+        <div class="page-content" style="background-color:#EDEDF5;">
+            <div class="block-title" style="margin-top: 20px;">Họ và tên: Nguyễn Văn A</div>
+            <div class=" ptr-content invoices">
+                <div class="list">
+                    <ul class="item-invoices">
+                        <li>
+                            <a class="link item-link smart-select smart-select-init" data-open-in="popup"
+                                data-searchbar="true" data-searchbar-placeholder="TÌM THỜI KHÓA BIỂU">
+                                <div class="item-content">
+                                    <select name="schedule" class="select-schedule"></select>
+                                    <div class="item-inner">
+                                        <div class="item-title">THỜI KHÓA BIỂU</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Timeline -->
+
+                <div class="timeline medium-sides schedule-items" style="margin-top: -20px;">
+                    <div class="timeline-item">
+                        <div class="timeline-item-date">Tiết 1 <small>6h30-7h20</small></div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: rgb(241, 200, 200);">
+                                <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                                    <div class="item-title-row">
+                                        <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                                    </div>
+                                    <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                                </div>
+                                <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                        style="border-radius: 10px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-date">Tiết 2 <small>6h30-7h20</small></div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: bisque;">
+                                <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                                    <div class="item-title-row">
+                                        <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                                    </div>
+                                    <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                                </div>
+                                <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                        style="border-radius: 10px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-date">Tiết 3 <small>6h30-7h20</small></div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: aquamarine;">
+                                <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                                    <div class="item-title-row">
+                                        <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                                    </div>
+                                    <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                                </div>
+                                <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                        style="border-radius: 10px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-date">Tiết 4 <small>6h30-7h20</small></div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: rgb(186, 213, 238) ;">
+                                <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                                    <div class="item-title-row">
+                                        <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                                    </div>
+                                    <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                                </div>
+                                <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                        style="border-radius: 10px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item-date">Tiết 5 <small>6h30-7h20</small></div>
+                        <div class="timeline-item-divider"></div>
+                        <div class="timeline-item-content">
+                            <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: rgb(243, 201, 238);">
+                                <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                                    <div class="item-title-row">
+                                        <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                                    </div>
+                                    <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                                </div>
+                                <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                                    <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                        style="border-radius: 10px;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</template>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="./lib/framework7/js/framework7.bundle.min.js"></script>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>

@@ -1,0 +1,174 @@
+<template>
+    <div class="page" data-name="schedule">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="/" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Thời khóa biểu</div>
+            </div>
+        </div>
+        <div class="page-content" style="background-color:#EDEDF5;">
+            <div class="block-title" style="margin-top: 20px;">Họ và tên: Nguyễn Văn A</div>
+            <div class="list-index"></div>
+          <!-- Scrollable page content -->
+          <div class=" ptr-content invoices">
+            <div class="list media-list">
+              <ul class="item-invoices">
+                <li>
+                    <a class="link item-link item-content" href="/view-schedule/">
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-count bg-color-green">T2</div>
+                        <div class="item-title">
+                          <div class="item-text-title">Thứ 2</div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link item-link item-content" href="/view-schedule/">
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-count bg-color-green">T3</div>
+                        <div class="item-title">
+                          <div class="item-text-title">Thứ 3</div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link item-link item-content" href="/view-schedule/">
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-count bg-color-green">T4</div>
+                        <div class="item-title">
+                          <div class="item-text-title">Thứ 4</div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link item-link item-content" href="/view-schedule/">
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-count bg-color-green">T5</div>
+                        <div class="item-title">
+                          <div class="item-text-title">Thứ 5</div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link item-link item-content" href="/view-schedule/">
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-count bg-color-green">T6</div>
+                        <div class="item-title">
+                          <div class="item-text-title">Thứ 6</div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link item-link item-content" href="/view-schedule/">
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-count bg-color-lightblue">T7</div>
+                        <div class="item-title">
+                          <div class="item-text-title">Thứ 7</div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="link item-link item-content" href="/view-schedule/">
+                    <div class="item-inner">
+                      <div class="item-title-row">
+                        <div class="item-count bg-color-pink">CN</div>
+                        <div class="item-title">
+                          <div class="item-text-title">Chủ Nhật</div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+    </div>
+</template>
+<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="./lib/framework7/js/framework7.bundle.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+<script>
+    export default () => {
+        return $render;
+    };
+</script>
+<style>
+    .invoices .item-invoices {
+  background: transparent;
+  /*border-radius: 20px;*/
+  /*padding: 20px;*/
+}
+.invoices .item-invoices .item-content {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  min-height: var(--f7-list-item-min-height);
+  padding-left: calc(var(--f7-list-item-padding-horizontal) + var(--f7-safe-area-left));
+  background: #fff;
+  box-shadow: 0px 7px 19px 0px rgba(0, 115, 255, 0.11);
+  margin: 15px 20px 10px 20px;
+  border-radius: 20px;
+}
+.invoices .item-invoices:before,.invoices .item-invoices:after {
+  height: 0;
+}
+
+.invoices .item-invoices .item-content .item-count {
+  min-height: 40px;
+  min-width: 40px;
+  background: linear-gradient(90deg, rgba(0,0,0,.1) 0%, rgba(0, 0, 0, 0.15) 48%, rgba(0, 0, 0, 0.19) 100%);
+  border-radius: 100%;
+  padding: 10px;
+  border: 2px solid #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+}
+
+.invoices .item-invoices .item-content .item-title {
+  display: grid;
+  align-items: center;
+  color: #313131;
+  margin-left: 20px;
+}
+
+.invoices .item-invoices .item-content .item-title .item-text .f7-icons {
+  font-size: 15px;
+}
+
+
+
+
+
+</style>

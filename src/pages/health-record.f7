@@ -1,0 +1,209 @@
+<template>
+    <div class="page" data-name="health-record">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="/" class="link back">
+                        <i class="icon icon-back"></i>
+                        <span class="if-not-md">Back</span>
+                    </a>
+                </div>
+                <div class="title">Hồ sơ sức khỏe</div>
+            </div>
+        </div>
+        <div class="page-content" style="background-color:#EDEDF5;">
+            <div class="block-title" style="margin-top: 20px; margin-bottom: 0;">Họ và tên: Nguyễn Văn A</div>
+            <div style="padding: 3%;">
+                <div class="toolbar tabbar-labels toolbar-top"
+                    style="margin-top: -50px; background-color: #EDEDF5; border-top-left-radius: 20px;  border-top-right-radius: 20px;">
+                    <div class="toolbar-inner">
+                        <a href="#tab-1" class="tab-link tab-link-active">
+                            <i class="icon material-icons md-only">local_library</i>
+                            <span class="tabbar-label">Tổng quan</span>
+                        </a>
+                        <a href="#tab-2" class="tab-link">
+                            <i class="icon material-icons md-only">account_balance_wallet</i>
+                            <span class="tabbar-label">Tiền sử</span>
+                        </a>
+                        <a href="#tab-3" class="tab-link">
+                            <i class="icon material-icons md-only">security</i>
+                            <span class="tabbar-label">Tiêm chủng</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs">
+                <div class="page-content tab tab-active" id="tab-1">
+                    <div class="block">
+                        <div class="row">
+                            <div class="col" style="border-radius: 15px;">
+                                <div class="card-content" style="color: red">
+                                    <i class="icon material-icons if-md" style="font-size: 50px;">favorite</i>
+                                    <div style=" margin-left: 5px;">
+                                        <div style="font-size: 2.5em; font-weight: bold;">105</div>
+                                        <span>Nhịp/phút</span>
+                                    </div>
+                                </div>
+                                <div class="card-title" style=" justify-items: start;">
+                                    <div style="font-size: 1.5em; font-weight: bold;">Nhịp tim</div>
+                                    <span>16/02/2023</span>
+                                </div>
+                            </div>
+                            <div class="col" style="border-radius: 15px;">
+                                <div class="card-content" style="color: rgb(226, 201, 11)">
+                                    <i class="icon material-icons if-md" style="font-size: 50px;">tire_repair</i>
+                                    <div style=" margin-left: 2px;">
+                                        <div style="font-size: 2.4em; font-weight: bold;">118/68</div>
+                                        <span>mmHg</span>
+                                    </div>
+                                </div>
+                                <div class="card-title" style=" justify-items: start;">
+                                    <div style="font-size: 1.5em; font-weight: bold;">Huyết áp</div>
+                                    <span>16/02/2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="border-radius: 15px;">
+                                <div class="card-content" style="color: rgb(30, 127, 69)">
+                                    <i class="icon material-icons if-md" style="font-size: 50px;">device_thermostat</i>
+                                    <div style=" margin-left: 5px;">
+                                        <div style="font-size: 2.5em; font-weight: bold;">36.5</div>
+                                        <span>°C</span>
+                                    </div>
+                                </div>
+                                <div class="card-title" style=" justify-items: start;">
+                                    <div style="font-size: 1.5em; font-weight: bold;">Nhiệt độ</div>
+                                    <span>16/02/2023</span>
+                                </div>
+                            </div>
+                            <div class="col" style="border-radius: 15px;">
+                                <div class="card-content" style="color: rgb(57, 13, 160)">
+                                    <i class="icon material-icons if-md" style="font-size: 50px;">hotel_class</i>
+                                    <div style=" margin-left: 5px;">
+                                        <div style="font-size: 2.5em; font-weight: bold;">2.52</div>
+                                        <span>kg/m²</span>
+                                    </div>
+                                </div>
+                                <div class="card-title" style=" justify-items: start;">
+                                    <div style="font-size: 1.5em; font-weight: bold;">Chỉ số BMI</div>
+                                    <span>16/02/2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="border-radius: 15px;">
+                                <div class="card-content" style="color: rgb(138, 38, 137)">
+                                    <i class="icon material-icons if-md" style="font-size: 50px;">scale</i>
+                                    <div style=" margin-left: 5px;">
+                                        <div style="font-size: 2.5em; font-weight: bold;">46</div>
+                                        <span>kg</span>
+                                    </div>
+                                </div>
+                                <div class="card-title" style=" justify-items: start; padding-bottom: 15px;">
+                                    <div style="font-size: 1.5em; font-weight: bold;">Cân nặng</div>
+                                    <span>16/02/2023</span>
+                                </div>
+                            </div>
+                            <div class="col" style="border-radius: 15px;">
+                                <div class="card-content" style="color: rgb(114, 114, 115)">
+                                    <i class="icon material-icons if-md" style="font-size: 50px;">height</i>
+                                    <div style=" margin-left: 5px;">
+                                        <div style="font-size: 2.5em; font-weight: bold;">1.58</div>
+                                        <span>m</span>
+                                    </div>
+                                </div>
+                                <div class="card-title" style=" justify-items: start;">
+                                    <div style="font-size: 1.5em; font-weight: bold;">Chiều cao</div>
+                                    <span>16/02/2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content tab" id="tab-2">
+                    <div class="block">
+                        Không có tiền sử bệnh án
+                    </div>
+                </div>
+                <div class="page-content tab" id="tab-3">
+                    <div class="timeline medium-sides schedule-items" >
+                        <div class="timeline-item">
+                            <div class="timeline-item-date">Mũi 1 <small>12/02/2022</small></div>
+                            <div class="timeline-item-divider"></div>
+                            <div class="timeline-item-content">
+                                <div class="timeline-item-inner" style=" background-color: rgb(241, 200, 200);">
+                                    <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                                        <div class="item-title-row">
+                                            <div class="item-title timeline-item-title">Tên Vacxin: Vero-Cell</div>
+                                        </div>
+                                        <div class="item-subtitle" style="color: gray;">Nước sản xuất: China</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-item-date">Mũi 2 <small>14/05/2022</small></div>
+                            <div class="timeline-item-divider"></div>
+                            <div class="timeline-item-content">
+                                <div class="timeline-item-inner" style=" background-color: rgb(241, 200, 200);">
+                                    <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                                        <div class="item-title-row">
+                                            <div class="item-title timeline-item-title">Tên Vacxin: Vero-Cell</div>
+                                        </div>
+                                        <div class="item-subtitle" style="color: gray;">Nước sản xuất: China</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<style>
+    .rotate-icon {
+        transform: rotate(90deg);
+    }
+
+    .tabbar .tab-link-active,
+    .tabbar-labels .tab-link-active {
+        /* background-color: #1818e3; */
+        color: blue;
+    }
+
+    .tabbar a,
+    .tabbar-labels a {
+        color: black;
+    }
+
+    .card-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+
+    }
+
+    .card-title {
+        padding-bottom: 10px;
+    }
+</style>
+<script>
+    export default (props, { $, $on }) => {
+        let $toolbarEl;
+
+        const togglePosition = () => {
+            $toolbarEl.toggleClass('toolbar-bottom toolbar-top');
+        }
+
+        $on('pageInit', (e, page) => {
+            $toolbarEl = page.$el.find('.toolbar');
+        });
+
+        return $render;
+    }
+
+</script>

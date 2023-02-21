@@ -1,7 +1,7 @@
 <template>
   <div class="page" data-name="home">
     <!-- Top Navbar -->
-    <div class="navbar navbar-large">
+    <div class="navbar">
       <div class="navbar-bg"></div>
       <div class="navbar-inner">
         <div class="left">
@@ -10,91 +10,515 @@
             <i class="icon material-icons if-md">menu</i>
           </a>
         </div>
-        <div class="title sliding">School</div>
+
         <div class="right">
-          <a href="#" class="link icon-only panel-open" data-panel="right">
-            <i class="icon f7-icons if-not-md">menu</i>
-            <i class="icon material-icons if-md">menu</i>
+          <a href="/login/" class="item-content item-link">
+            <div class="item-inner">
+              <div class="item-title">ECLO</div>
+            </div>
           </a>
         </div>
-        <div class="title-large">
-          <div class="title-large-text">School</div>
-        </div>
+
       </div>
     </div>
+    
 
     <!-- Scrollable page content-->
-    <div class="page-content">
-      <div class="block block-strong">
-        <p>This is an example of tabs-layout application. The main point of such tabbed layout is that each tab contains
-          independent view with its own routing and navigation.</p>
-
-        <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar
-          like this tab.</p>
-      </div>
-      <div class="block-title">Navigation</div>
-      <div class="list">
-        <ul>
-          <li>
-            <a href="/about/" class="item-content item-link">
-              <div class="item-inner">
-                <div class="item-title">About</div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="/form/" class="item-content item-link">
-              <div class="item-inner">
-                <div class="item-title">Form</div>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="block-title">Modals</div>
-      <div class="block block-strong">
-        <div class="row">
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Popup</a>
+    <div class="page-content" style="padding-top: 15%; background-color:#EDEDF5;">
+      <!-- <div class="block block-strong">
+        <h4>Họ và tên : Nguyễn Văn A</h4>
+      </div> -->
+      <div class="card elevation-3" style="margin: 7px; border-radius: 10px;">
+        <div class="card-content card-content-padding" style="padding-top: 1px;">
+          <div style="display: flex; align-items: center;">
+            <p>Họ và tên :</p>
+            <select name="name" id="name" style="background-color: #D3D3D3; padding: 8px;margin: 0; margin-left: 10px;">
+              <option value="1">Nguyễn Văn A</option>
+              <option value="2">Nguyễn Thị B</option>
+            </select>
           </div>
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill login-screen-open"
-              data-login-screen="#my-login-screen">Login Screen</a>
+          <div>Mã học sinh: 123456</div>
+          <div style="display: flex; align-items: center; margin-top: 5px;">
+            <div style="width: 50%;">Lớp : 3A</div>
+            <div style="width: 50%;">Phòng : 2.12</div>
           </div>
-        </div>
-      </div>
-
-      <div class="block-title">Panels</div>
-      <div class="block block-strong">
-        <div class="row">
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill panel-open" data-panel="left">Left Panel</a>
-          </div>
-          <div class="col-50">
-            <a href="#" class="button button-raised button-fill panel-open" data-panel="right">Right Panel</a>
+          <div style="margin-top: 5px;">Giáo viên chủ nhiệm : Nguyễn Thị Thắm</div>
+          <div style="margin-top: 5px; align-items: center; display: flex;">
+            <div> Ngày hiện tại :</div>
+            <div id="current_date" style="margin-left: 10px;">
+              </p>
+              <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;
+              </script>
+            </div>
+            <div style="display: flex; align-items: center; margin-top: 5px;">
+              <div style="width:30%">Điểm danh :</div>
+              <div style="width:35%">Giờ vào: 6:30</div>
+              <div style="width:35%">Giờ ra: 12:00</div>
+            </div>
           </div>
         </div>
-      </div>
+        <div style="margin-top: -10px;">
+          <div class="block">
+            <div class="row">
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/attendanceDiary/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: rgb(220, 195, 11); font-size: 35px;">history</i>
+                    <div style="color: black; margin-top: 5px;">Điểm danh</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px;  height: 80px;">
+                <div class="link link-items">
+                  <a href="/scores/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: rgb(247, 126, 6); font-size: 35px;">edit_square</i>
+                    <div style="color: black; margin-top: 5px;">Điểm</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/schedule/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: rgb(98, 27, 240); font-size: 35px;">calendar_month</i>
+                    <div style="color: black; margin-top: 5px;">Thời khóa biểu</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/menu/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md" style="color: rgb(24, 16, 109); font-size: 35px;">menu_book</i>
+                    <div style="color: black; margin-top: 5px;">Thực đơn</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/leave/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md" style="color: red; font-size: 35px;">event_busy</i>
+                    <div style="color: black; margin-top: 5px;">Xin nghỉ phép</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2 " style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/health-record/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md" style="color: black; font-size: 35px;">video_camera_front</i>
+                    <div style="color: black; margin-top: 5px;">Hồ sơ sức khỏe</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/news/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md" style="color: rgb(0,191,255); font-size: 35px;">school</i>
+                    <div style="color: black; margin-top: 5px;">Hoạt động</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/notifications/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: 	rgb(34,139,34); font-size: 35px;">circle_notifications</i>
+                    <div style="color: black; margin-top: 5px;">Thông báo trường</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/notificationTeacher/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: 	rgb(105,105,105); font-size: 35px;">notifications_active</i>
+                    <div style="color: black; margin-top: 5px;">Thông báo GV</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/list-teacher/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md" style="color: rgb(153,50,204); font-size: 35px;">co_present</i>
+                    <div style="color: black; margin-top: 5px;">Giáo viên</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/brief/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: 	rgb(22, 239, 221); font-size: 35px;">assignment_ind</i>
+                    <div style="color: black; margin-top: 5px;">Hồ sơ học sinh </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/account/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md" style="color: rgb(3, 126, 120); font-size: 35px;">badge</i>
+                    <div style="color: black; margin-top: 5px;">Tài khoản</div>
+                  </a>
+                </div>
+              </div>
+              <!-- <div class="col elevation-2" style="border-radius: 10px;">
+                <div class="link link-items">
+                  <a href="#" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: 	rgb(195, 85, 142); font-size: 35px;">notifications</i>
+                    <div style="color: black; margin-top: 5px;">Thông báo GV</div>
+                  </a>
+                </div>
+              </div> -->
+            </div>
+            <div class="row">
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/debt-lookup/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md" style="color: rgb(255,105,180); font-size: 35px;">local_atm</i>
+                    <div style="color: black; margin-top: 5px;">Tra cứu công nợ</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col elevation-2" style="border-radius: 10px; height: 80px;">
+                <div class="link link-items">
+                  <a href="/option/" style="text-decoration: none;">
+                    <i class="icon material-icons if-md"
+                      style="color: rgb(114, 93, 9); font-size: 35px;">edit_square</i>
+                    <div style="color: black; margin-top: 5px;">Góp ý</div>
+                  </a>
+                </div>
+              </div>
+              <div class="col" style="border-style: none; background-color: #EDEDF5;">
 
-      <div class="list links-list">
-        <ul>
-          <li>
-            <a href="/dynamic-route/blog/45/post/125/?foo=bar#about">Dynamic (Component) Route</a>
-          </li>
-          <li>
-            <a href="/load-something-that-doesnt-exist/">Default Route (404)</a>
-          </li>
-          <li>
-            <a href="/request-and-load/user/123456/">Request Data & Load</a>
-          </li>
-        </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="schedule">
+          <div style="display: flex; align-items: center; margin-top: -20px; margin-bottom: 20px;">
+            <div class="block-title" style="width: 80%; margin-top: 0%; margin-bottom: 0%;">Thời khóa biểu hôm nay
+            </div>
+            <div style="width:20%; font-size: 0.8em;"><a href="#" style="color: #000;">Xem thêm</a></div>
+          </div>
+          <div class="timeline medium-sides schedule-items" >
+            <div class="timeline-item">
+                <div class="timeline-item-date">Tiết 1 <small>6h30-7h20</small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                    <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: rgb(241, 200, 200);">
+                        <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                            <div class="item-title-row">
+                                <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                            </div>
+                            <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                        </div>
+                        <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                            <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                style="border-radius: 10px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-item-date">Tiết 2 <small>6h30-7h20</small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                    <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: bisque;">
+                        <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                            <div class="item-title-row">
+                                <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                            </div>
+                            <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                        </div>
+                        <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                            <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                style="border-radius: 10px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-item-date">Tiết 3 <small>6h30-7h20</small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                    <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: aquamarine;">
+                        <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                            <div class="item-title-row">
+                                <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                            </div>
+                            <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                        </div>
+                        <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                            <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                style="border-radius: 10px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-item-date">Tiết 4 <small>6h30-7h20</small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                    <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: rgb(186, 213, 238) ;">
+                        <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                            <div class="item-title-row">
+                                <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                            </div>
+                            <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                        </div>
+                        <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                            <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                style="border-radius: 10px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-item-date">Tiết 5 <small>6h30-7h20</small></div>
+                <div class="timeline-item-divider"></div>
+                <div class="timeline-item-content">
+                    <div class="timeline-item-inner" style="display: flex; align-items: center; background-color: rgb(243, 201, 238);">
+                        <div class="item-inner" style="padding-left: 2px; margin-right: 20px;">
+                            <div class="item-title-row">
+                                <div class="item-title timeline-item-title">Môn học: Tiếng việt</div>
+                            </div>
+                            <div class="item-subtitle" style="color: gray;">Giáo viên: Nguyễn Thị Thắm</div>
+                        </div>
+                        <div class="item-media" style=" width: 15%; margin-right: 1px;">
+                            <img src="https://cdn.framework7.io/placeholder/fashion-88x88-4.jpg" width="44"
+                                style="border-radius: 10px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="menu" style="margin-top: 7%;">
+          <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <div class="block-title" style="width: 80%; margin-top: 0%; margin-bottom: 0%;">Thực đơn hôm nay
+            </div>
+            <div style="width:20%; font-size: 0.8em;"><a href="/menu/" style="color: #000;">Xem thêm</a></div>
+          </div>
+          <div class="meals">
+            <div style="font-weight: 500;; font-size:15px;margin: 10px 0 0 13px;">Bữa sáng</div>
+            <div class="row">
+              <div class="col" style="border-radius: 10px; padding: 5px;">
+                <div class="card-content" style="margin-left: 10px;">
+                  <div style="overflow-x: scroll; ">
+                    <ul style="display:flex; list-style:none; padding: 0; ">
+                      <li style="width: 190px;">
+                        <div style=" border:1px solid #dee2e6;
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                             border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU"
+                            width="175" height="140" />
+                          <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                          <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                        </div>
+                      </li>
+                      <li style="width: 190px;">
+                        <div style=" border:1px solid #dee2e6;
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                             border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU"
+                            width="175" height="140" />
+                          <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                          <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                        </div>
+                      </li>
+                      <li style="width: 190px;">
+                        <div style=" border:1px solid #dee2e6;
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                             border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU"
+                            width="175" height="140" />
+                          <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                          <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                        </div>
+                      </li>
+                      <li style="width: 190px;">
+                        <div style=" border:1px solid #dee2e6;
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+                             border-radius: 20px; overflow: hidden; margin-right: 13px;">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiDLmAEneMk3N7dKIq02hTlywuSDPbpn164Q&usqp=CAU"
+                            width="175" height="140" />
+                          <div style="text-align: center; font-size:16px">Salad ngũ vị đầy đủ các chất</div>
+                          <p style="color: #d6336c; text-align: center;">567 Kcal</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-title">Modals</div>
+        <div class="list media-list">
+          <h3 class="block-title text-title" style="margin-left: 13px;">Giới thiệu:</h3>
+          <div class="card demo-card-header-pic" style="margin-bottom: 0px;">
+            <div
+              style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"
+              class="card-header align-items-flex-end">Lorem Ipsum</div>
+            <div class="card-content pd-card card-content-padding" style="margin-bottom: 8px;">
+              <p class="datenews ">Hoạt động kéo co tại trường học ngày (20/2/2022)</p>
+              <p>Thông tin sở giáo dục và đào tạo hoạt động trường dự trên, tin sở giáo dục và đào tạo hoạt động trường
+                dự trên ...</p>
+              <p class="date date-news">Ngày đăng tải: 21/2/2015</p>
+            </div>
+
+            <ul>
+              <li>
+                <a href="#" class="item-link item-content">
+                  <div class="item-media"><img
+                      src="https://edu.viettel.vn/upload/49555/20210318/z2385371417007_5ba5a27a73eec3515aa29e66f702aae2_76d309a648.jpg"
+                      width="145px" height="95px" /></div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="size-titile">Kế hoạch giảng dạy và đào tạo năm 2022</div>
+                    </div>
+                    <div class="item-text" style="height: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit. Nulla sagittis
+                      tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum
+                      sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec
+                      dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="item-link item-content">
+                  <div class="item-media"><img
+                      src="https://edu.viettel.vn/upload/49555/20210318/z2385371417007_5ba5a27a73eec3515aa29e66f702aae2_76d309a648.jpg"
+                      width="145px" height="95px" /></div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="size-titile">Kế hoạch giảng dạy và đào tạo năm 2022</div>
+                    </div>
+                    <div class="item-text" style="height: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit. Nulla sagittis
+                      tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum
+                      sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec
+                      dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="item-link item-content">
+                  <div class="item-media"><img
+                      src="https://edu.viettel.vn/upload/49555/20210318/z2385371417007_5ba5a27a73eec3515aa29e66f702aae2_76d309a648.jpg"
+                      width="145px" height="95px" /></div>
+                  <div class="item-inner">
+                    <div class="item-title-row">
+                      <div class="size-titile">Kế hoạch giảng dạy và đào tạo năm 2022</div>
+                    </div>
+                    <div class="item-text" style="height: 100px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit. Nulla sagittis
+                      tellus ut turpis condimentum, ut dignissim lacus tincidunt. Cras dolor metus, ultrices condimentum
+                      sodales sit amet, pharetra sodales eros. Phasellus vel felis tellus. Mauris rutrum ligula nec
+                      dapibus feugiat. In vel dui laoreet, commodo augue id, pulvinar lacus.</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="list">
+              <ul>
+                <li><a class="list-button" style="background-color: #F8F9F9;">Xem thêm</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </template>
 <script>
-  export default () => {
+  export default (props, { $f7, $on }) => {
+    $on('pageInit', () => {
+      // create searchbar
+      var searchbar = $f7.searchbar.create({
+        el: '.searchbar',
+        searchContainer: '.list',
+        searchIn: '.item-title',
+        on: {
+          search(sb, query, previousQuery) {
+            console.log(query, previousQuery);
+          }
+        }
+      });
+    })
+
     return $render;
   }
 </script>
+<!-- <script>
+  export default () => {
+    return $render;
+  }
+</script> -->
+<style>
+  .demo-card-header-pic .card-header {
+      height: 40vw;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+  
+    .demo-card-header-pic .card-content-padding .date {
+      color: #ed2525;
+    }
+  /* .elevation-demo {
+    height: 100px;
+    margin: 30px 10px;
+    background: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+  } */
+  select {
+    width: 65%;
+    margin: 20px;
+  }
+
+  div[class*="col"] {
+    background: #fff;
+    text-align: center;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 16px;
+ 
+  }
+
+  .grid-resizable-demo {
+    --f7-grid-row-gap: 16px;
+  }
+
+  .grid-resizable-demo div[class*="col"] {
+    margin-bottom: 0;
+  }
+
+  .grid-resizable-demo .demo-col-center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
