@@ -372,15 +372,14 @@
             </div>
           </div>
         </div>
-        <div class="block-title">Modals</div>
-        <div class="list media-list">
+        <div class="list media-list" style="margin-top: 10px;">
           <h3 class="block-title text-title" style="margin-left: 13px;">Giới thiệu:</h3>
           <div class="card demo-card-header-pic" style="margin-bottom: 0px;">
             <div
               style="background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"
               class="card-header align-items-flex-end">Lorem Ipsum</div>
             <div class="card-content pd-card card-content-padding" style="margin-bottom: 8px;">
-              <p class="datenews ">Hoạt động kéo co tại trường học ngày (20/2/2022)</p>
+              <p class="datenews " style="font-weight: bolder;">Hoạt động kéo co tại trường học ngày (20/2/2022)</p>
               <p>Thông tin sở giáo dục và đào tạo hoạt động trường dự trên, tin sở giáo dục và đào tạo hoạt động trường
                 dự trên ...</p>
               <p class="date date-news">Ngày đăng tải: 21/2/2015</p>
@@ -497,7 +496,7 @@
     margin: 20px;
   }
 
-  div[class*="col"] {
+  .row .col {
     background: #fff;
     text-align: center;
     color: #000;
@@ -512,7 +511,7 @@
     --f7-grid-row-gap: 16px;
   }
 
-  .grid-resizable-demo div[class*="col"] {
+  .grid-resizable-demo .row .col {
     margin-bottom: 0;
   }
 

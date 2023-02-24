@@ -217,6 +217,11 @@
                 </div>
             </div>
             <div class="row" style="display: flex; justify-content: center; margin-top: 20px;">
+                <button class="col button button-fill button-large center elevation-3"
+                    style="width: 93%; font-size: larger; border-radius: 10px; height: 55px; background-color: #064384;">CHUYỂN TÀI KHOẢN
+                </button>
+            </div>
+            <div class="row" style="display: flex; justify-content: center; margin-top: 20px;">
                 <button class="col button button-fill button-large center bg-color-black elevation-3"
                     style="width: 93%; font-size: larger; border-radius: 10px; height: 55px;">ĐĂNG XUẤT
                 </button>
@@ -347,7 +352,7 @@
         border-radius: 0.5rem;
     }
 
-    div[class*="col"] {
+   .row .col-33{
         border-style: none;
         text-align: start;
         font-size: 1em;
@@ -357,5 +362,9 @@
     .row .col-66 {
         color: #064384;
         font-weight: bolder;
+        border-style: none;
+        text-align: start;
+        font-size: 1em;
+        margin-bottom: 5px;
     }
 </style>

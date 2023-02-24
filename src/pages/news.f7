@@ -222,12 +222,12 @@
         class="swiper swiper-init demo-swiper">
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper" style="height: 100%;">
-          <!-- <div class="swiper-slide" style="width: 100%;">
+          <div class="swiper-slide" style="width: 100%;">
             <div class="card-header height-size text-color-black display-block"  style="width: 90%;background-image:url(http://baoninhbinh.org.vn/Images/Uploaded/Share/2016/10/19/Untitled2-copy11.jpg)"><br />
                
             </div>
-          </div> -->
-          <!-- <div class="swiper-slide">Slide 2</div>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
           <div class="swiper-slide">Slide 3</div>
           <div class="swiper-slide">Slide 4</div>
           <div class="swiper-slide">Slide 5</div>
@@ -235,7 +235,7 @@
           <div class="swiper-slide">Slide 7</div>
           <div class="swiper-slide">Slide 8</div>
           <div class="swiper-slide">Slide 9</div>
-          <div class="swiper-slide">Slide 10</div> -->
+          <div class="swiper-slide">Slide 10</div>
         </div>
       </div>
       </div>

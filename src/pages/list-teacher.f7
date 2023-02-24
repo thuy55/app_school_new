@@ -254,7 +254,13 @@
   .invoices .item-invoices:after {
     height: 0;
   }
-  div[class*="col"] {
+  .row .col-33 {
+    border-style: none;
+    text-align: start;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+  .row .col-66 {
     border-style: none;
     text-align: start;
     font-size: 0.8em;
